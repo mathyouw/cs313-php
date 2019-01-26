@@ -5,10 +5,7 @@
     <title>Checkout</title>
 </head>
 <body>
-<?php 
-if (session_status() == PHP_SESSION_NONE) {
-    session_start();
-}
+
 ?>
 <form method="post" action="assign03php.php">
     <input type="text" name="name" placeholder="Name">
