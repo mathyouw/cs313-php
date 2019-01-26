@@ -11,9 +11,11 @@
             session_start();
         }
         ?>
-
-    <button onclick="window.location.href = 'Checkout.php';">Click Here</button>
+<!-- 
+    <button onclick="window.location.href = 'Checkout.php';">Click Here</button> -->
+    <form method="post" action="Checkout.php">
     <div class="a"><H2>Wilson's Used Car Lot</H2><br></div>
+    <input type="submit" value="Submit">
     <div class="a"><p>Vehicles Available</p></div>
     <div class="grid-container">
         <div class="grid-item">1989 Camaro  <br><img src="carpicks/DSCN0638.JPG"><input type="checkbox" name="camaro" value="1989 Camaro">Add to Cart
@@ -29,7 +31,7 @@
         <div class="grid-item">2015 Ford Fusion <br><img src="carpicks/DSCN0471.JPG"><button onClick="$_SESSION['Fusion' = '2015 Ford Fusion']">Add to Cart</button></div>
         <div class="grid-item">1985 Honda 3 Wheeler <br><img src="carpicks/left.jpg"><button onClick="$_SESSION['Honda'] = '1985 Honda 3 Wheeler'">Add to Cart</button></div>
     </div>
-
+</form>
     
 </body>
 </html>
