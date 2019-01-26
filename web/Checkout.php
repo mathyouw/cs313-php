@@ -16,6 +16,8 @@ echo "Favorite animal is " . $_SESSION["Buick"] . ".";
 <form method="post" action="assign03php.php">
     <input type="text" name="name" placeholder="Name">
     <br>
+    <input type="number" name="quantity" placeholder="number">
+    <br>
     <input type="text" name="email" placeholder="Email">
     <br>
     <input type="text" name="streetAddress" placeholder="Street Address">
