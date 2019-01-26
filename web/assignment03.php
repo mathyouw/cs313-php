@@ -25,6 +25,11 @@
         <div class="grid-item">2015 Ford Fusion <br><img src="carpicks/DSCN0471.JPG"><button onClick="$_SESSION['Fusion' = '2015 Ford Fusion']">Add to Cart</button></div>
         <div class="grid-item">1985 Honda 3 Wheeler <br><img src="carpicks/left.jpg"><button onClick="$_SESSION['Honda'] = '1985 Honda 3 Wheeler'">Add to Cart</button></div>
     </div>
+    <?php
+// Echo session variables that were set on previous page
+echo "Favorite color is " . $_SESSION["Camaro"] . ".<br>";
+echo "Favorite animal is " . $_SESSION["Buick"] . ".";
+?>
     
 </body>
 </html>
