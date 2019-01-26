@@ -6,6 +6,10 @@
 </head>
 <body>
 
+   <?php
+// Echo session variables that were set on previous page
+echo "Favorite color is " . $_SESSION["Camaro"] . ".<br>";
+echo "Favorite animal is " . $_SESSION["Buick"] . ".";
 ?>
 <form method="post" action="assign03php.php">
     <input type="text" name="name" placeholder="Name">
