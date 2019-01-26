@@ -12,7 +12,7 @@
         }
         ?>
 <form>
-    <input type="button" value="Proceed to Checkout" onclick="window.location.href=Checkout.php" />
+    <input type="button" value="Proceed to Checkout" onclick="href=Checkout.php" />
     <div class="a"><H2>Wilson's Used Car Lot</H2><br></div>
     <div class="a"><p>Vehicles Available</p></div>
     <div class="grid-container">
