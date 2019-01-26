@@ -11,8 +11,6 @@
 <html lang="en">
 <head>
     <title>phpcheckout</title>
-
-
 </head>
 <body>
 <?php
@@ -29,6 +27,7 @@ echo "$username<br>";
 echo "$email<br>";
 echo "$streetAddress<br>";
 echo "$City<br>";
+echo "$State<br>";
 echo "$zipcode";
 
 ?>
