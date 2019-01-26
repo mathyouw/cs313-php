@@ -10,6 +10,7 @@ session_start();
 ?>
    <?php
    $quantity = $_POST['quantity'];
+   echo "$quantity<br>";
 // Echo session variables that were set on previous page
 echo "Favorite color is " . $_SESSION["Camaro"] . ".<br>";
 echo "Favorite animal is " . $_SESSION["Buick"] . ".";
