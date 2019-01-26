@@ -5,7 +5,9 @@
     <title>Checkout</title>
 </head>
 <body>
-
+<?php
+session_start();
+?>
    <?php
 // Echo session variables that were set on previous page
 echo "Favorite color is " . $_SESSION["Camaro"] . ".<br>";
