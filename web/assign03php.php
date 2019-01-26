@@ -10,7 +10,7 @@
 
 <html lang="en">
 <head>
-    <title>phpcheckout</title>
+   
 </head>
 <body>
 <?php
@@ -19,7 +19,7 @@ $email = $_POST['email'];
 $streetAddress = $_POST['streetAddress'];
 $City = $_POST['City'];
 $State = $_POST['State'];
-$zipcode = $_POST{'zipcode'}
+$zipcode = $_POST{'zipcode'};
 
 
 
