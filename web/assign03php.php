@@ -5,9 +5,12 @@
  * Date: 1/26/2019
  * Time: 12:52 PM
  */
+<!DOCTYPE html>
 
-<html>
+
+<html lang="en">
 <head>
+    <title>phpcheckout</title>
 
 
 </head>
