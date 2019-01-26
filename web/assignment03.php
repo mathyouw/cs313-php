@@ -10,6 +10,7 @@
         if (session_status() == PHP_SESSION_NONE) {
             session_start();
         }
+        ?>
        
     <div class="a"><H2>Wilson's Used Car Lot</H2><br></div>
     <div class="a"><p>Vehicles Available</p></div>
@@ -24,6 +25,6 @@
         <div class="grid-item">2015 Ford Fusion <br><img src="carpicks/DSCN0471.JPG"><button onClick="$_SESSION['Fusion' = '2015 Ford Fusion']">Add to Cart</button</div>
         <div class="grid-item">1985 Honda 3 Wheeler <br><img src="carpicks/left.jpg"><button onClick="$_SESSION['Honda'] = '1985 Honda 3 Wheeler'">Add to Cart</button</div>
     </div>
-     ?>
+    
 </body>
 </html>
