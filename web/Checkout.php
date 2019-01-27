@@ -9,6 +9,7 @@
 <?php
 session_start();
 ?>
+ <div class="a">
    <?php
 
 
@@ -58,6 +59,6 @@ session_start();
     <br>
     <input type="submit" value="Submit">
 </form>
-
+</div>
 </body>
 </html>

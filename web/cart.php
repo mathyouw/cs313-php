@@ -8,6 +8,7 @@
       
 </head>
 <body>
+   <div class="a">
 <?php
 session_start();
 ?>
@@ -38,6 +39,6 @@ session_start();
 <form method="post" action="assignment03.php">
 <button onclick="goBack()">Return to Items List</button>
 </form>
-
+</div>
 </body>
 </html>

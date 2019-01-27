@@ -10,6 +10,7 @@
 	<?php
 session_start();
 ?>
+ <div class="a">
 <?php
 $username = $_POST['name'];
 $email = $_POST['email'];
@@ -45,6 +46,6 @@ echo "$camaro<br>";
    echo "$Honda<br>";
 
 ?>
-
+</div>
 </body>
 </html>
