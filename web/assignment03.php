@@ -15,7 +15,7 @@
     <button onclick="window.location.href = 'Checkout.php';">Click Here</button> -->
     <form method="post" action="cart.php">
     <div class="a"><H2>Wilson's Used Car Lot</H2><br></div>
-    <input type="submit" value="Add to Cart"  style="float: right;>
+    <input type="submit" value="Add to Cart"  style="position: absolute; right: 0;>
     <div class="a"><p>Vehicles Available</p></div>
     <div class="grid-container">
         <div class="grid-item">1989 Camaro  <br><img src="carpicks/DSCN0638.JPG"><br><input type="checkbox" name="camaro" value="1989 Camaro">Add to Cart
