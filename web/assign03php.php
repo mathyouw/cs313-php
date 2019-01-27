@@ -24,15 +24,19 @@ $Lesabre = $_SESSION['Lesabre'];
 $RV = $_SESSION['RV'];
 $Fusion = $_SESSION['Fusion'];
 $Honda = $_SESSION['Honda'];
+?>
 
-
-
+<h2>Your Address<br></h2>
+	<?php
 echo "$username<br>";
 echo "$email<br>";
 echo "$streetAddress<br>";
 echo "$City<br>";
 echo "$State<br>";
-echo "$zipcode";
+echo "$zipcode<br>";
+?>
+<h2>Your Order<br></h2>
+<?php
 echo "$camaro<br>";
    echo "$F150<br>";
    echo "$Lesabre<br>";
