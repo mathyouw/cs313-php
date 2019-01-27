@@ -4,7 +4,7 @@
 
 <html lang="en">
 <head>
-   
+   <link rel="stylesheet" type="text/css" href="03stylesheet.css">
 </head>
 <body>
 	<?php

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Checkout</title>
+    <link rel="stylesheet" type="text/css" href="03stylesheet.css">
 </head>
 <body>
 <?php
@@ -24,7 +25,7 @@ session_start();
    $_SESSION['RV'] = $RV;
    $_SESSION['Fusion'] = $Fusion;
    $_SESSION['Honda'] = $Honda;
-   
+
    // $camaro = $_POST['camaro'];
    // $F150 = $_POST['F150'];
    // $Lesabre = $_POST['Lesabre'];

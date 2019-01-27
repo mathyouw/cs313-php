@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Shopping Cart</title>
+    <link rel="stylesheet" type="text/css" href="03stylesheet.css">
     <script src="assign03javascript.js"></script>
       
 </head>
