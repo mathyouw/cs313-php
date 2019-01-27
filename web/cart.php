@@ -8,7 +8,7 @@
 <?php
 session_start();
 ?>
- <form method="post" action="cart.php">
+ <form method="post" action="Checkout.php">
    <?php
    $camaro = $_POST['camaro'];
    $F150 = $_POST['F150'];
