@@ -32,7 +32,10 @@ $Honda = $_SESSION['Honda'];
 echo "$username<br>";
 echo "$email<br>";
 echo "$streetAddress<br>";
-echo "$City<br> ," + "$State<br>";
+$str1="'$City' ,";
+$str2="'$State'<br>";
+echo $str1 . " " . $str2;
+
 echo "$zipcode<br>";
 ?>
 <h2>Your Order<br></h2>
