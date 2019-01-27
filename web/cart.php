@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Shopping Cart</title>
+    <script src="assign03javascript.js"></script>
+      
 </head>
 <body>
 <?php
@@ -33,7 +35,7 @@ session_start();
  <input type="submit" value="Proceed to Checkout">
 </form>
 <form method="post" action="assignment03.php">
-<input type="submit" value="Return to Items List">
+<button onclick="goBack()">Return to Items List</button>
 </form>
 
 </body>
