@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Checkout</title>
     <link rel="stylesheet" type="text/css" href="03stylesheet.css">
+    <script src="assign03javascript.js"></script>
 </head>
 <body>
 <?php
@@ -20,7 +21,7 @@ session_start();
    $Fusion = $_SESSION['Fusion'];
    $Honda = $_SESSION['Honda'];
 
-    $_SESSION['camaro'] = $camaro;
+   $_SESSION['camaro'] = $camaro;
    $_SESSION['F150'] = $F150;
    $_SESSION['Lesabre'] = $Lesabre;
    $_SESSION['RV'] = $RV;
@@ -33,12 +34,12 @@ session_start();
    // $RV = $_POST['RV'];
    // $Fusion = $_POST['Fusion'];
    // $Honda = $_POST['Honda'];
-   echo "$camaro<br>";
-   echo "$F150<br>";
-   echo "$Lesabre<br>";
-   echo "$RV<br>";
-   echo "$Fusion<br>";
-   echo "$Honda<br>";
+   // echo "$camaro<br>";
+   // echo "$F150<br>";
+   // echo "$Lesabre<br>";
+   // echo "$RV<br>";
+   // echo "$Fusion<br>";
+   // echo "$Honda<br>";
 
 ?>
 <h2>Please provide a shipping address.</h2>
@@ -58,6 +59,9 @@ session_start();
     <input type="text" name="zipcode" placeholder="Zip Code">
     <br>
     <input type="submit" value="Submit">
+</form>
+<form method="post" action="cart.php">
+<input type="submit" value="Return to Cart">">
 </form>
 </div>
 </body>
