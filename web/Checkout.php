@@ -9,7 +9,8 @@
 session_start();
 ?>
    <?php
-   $camaro = $_POST['camaro'];
+   $camaro = $_SESSION['camaro'];
+   // $camaro = $_POST['camaro'];
    $F150 = $_POST['F150'];
    $Lesabre = $_POST['Lesabre'];
    $RV = $_POST['RV'];

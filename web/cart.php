@@ -22,9 +22,9 @@ session_start();
    echo "$RV<br>";
    echo "$Fusion<br>";
    echo "$Honda<br>";
-
+   $_SESSION['camaro'] = $camaro;
 ?>
-<input type="text" name="camaro" value=$camaro >Test
+<input type="text" name="camaro" value=camaro >Test
  <input type="submit" value="Proceed to Checkout">
 </form>
 
