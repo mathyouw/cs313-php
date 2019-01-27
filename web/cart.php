@@ -33,7 +33,6 @@ session_start();
    $_SESSION['Fusion'] = $Fusion;
    $_SESSION['Honda'] = $Honda;
 ?>
-<input type="text" name="camaro" value=camaro >Test
  <input type="submit" value="Proceed to Checkout">
 </form>
 <form method="post" action="assignment03.php">

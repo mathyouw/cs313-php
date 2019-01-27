@@ -61,7 +61,7 @@ session_start();
     <input type="submit" value="Submit">
 </form>
 <form method="post" action="cart.php">
-<input type="submit" value="Return to Cart">">
+<input type="submit" value="Return to Cart">
 </form>
 </div>
 </body>
