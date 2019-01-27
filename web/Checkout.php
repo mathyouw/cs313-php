@@ -29,6 +29,7 @@ session_start();
    echo "$Honda<br>";
 
 ?>
+<h2>Please provide a shipping address.</h2>
 <form method="post" action="assign03php.php">
     <input type="text" name="name" placeholder="Name">
     <br>
