@@ -9,12 +9,22 @@
 session_start();
 ?>
    <?php
+
+
    $camaro = $_SESSION['camaro'];
    $F150 = $_SESSION['F150']; 
    $Lesabre = $_SESSION['Lesabre'];
    $RV = $_SESSION['RV'];
    $Fusion = $_SESSION['Fusion'];
    $Honda = $_SESSION['Honda'];
+
+    $_SESSION['camaro'] = $camaro;
+   $_SESSION['F150'] = $F150;
+   $_SESSION['Lesabre'] = $Lesabre;
+   $_SESSION['RV'] = $RV;
+   $_SESSION['Fusion'] = $Fusion;
+   $_SESSION['Honda'] = $Honda;
+   
    // $camaro = $_POST['camaro'];
    // $F150 = $_POST['F150'];
    // $Lesabre = $_POST['Lesabre'];
