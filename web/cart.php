@@ -24,6 +24,7 @@ session_start();
    echo "$Honda<br>";
 
 ?>
+<input type="text" name="camaro" value=$camaro >Test
  <input type="submit" value="Proceed to Checkout">
 </form>
 
