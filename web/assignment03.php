@@ -26,7 +26,7 @@
 
         <div class="grid-item">2004 Buick Lesabre Custom  <br><img src="carpicks/20180329_102604.jpg"><br><input type="checkbox" name="Lesabre" value="2004 Buick Lesabre Custom">Add to Cart</div>
     </div>
-       <div class="a"><br><p>Speciality Items Available</p></div>
+       <div class="a"><br><p>Speciality Items Available </p></div>
     <div class="grid-container">
         <div class="grid-item">1973 Ford RV <br><img src="carpicks/20170920_122606.jpg"><br><input type="checkbox" name="RV" value="1973 Ford RV">Add to Cart</div>
         <div class="grid-item">2015 Ford Fusion <br><img src="carpicks/DSCN0471.JPG"><br><input type="checkbox" name="Fusion" value="2015 Ford Fusion">Add to Cart</div>
