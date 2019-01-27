@@ -10,11 +10,18 @@ session_start();
 ?>
    <?php
    $camaro = $_POST['camaro'];
-
+   $F150 = $_POST['F150'];
+   $Lesabre = $_POST['Lesabre'];
+   $RV = $_POST['RV'];
+   $Fusion = $_POST['Fusion'];
+   $Honda = $_POST['Honda'];
    echo "$camaro<br>";
-// Echo session variables that were set on previous page
-echo "Favorite color is " . $_SESSION["Camaro"] . ".<br>";
-echo "Favorite animal is " . $_SESSION["Buick"] . ".";
+   echo "$F150<br>";
+   echo "$Lesabre<br>";
+   echo "$RV<br>";
+   echo "$Fusion<br>";
+   echo "$Honda<br>";
+
 ?>
 <form method="post" action="assign03php.php">
     <input type="text" name="name" placeholder="Name">

@@ -21,7 +21,7 @@
         <div class="grid-item">1989 Camaro  <br><img src="carpicks/DSCN0638.JPG"><input type="checkbox" name="camaro" value="1989 Camaro">Add to Cart
     <br></div>
 
-        <div class="grid-item">1989 Ford F-150  <br><img src="carpicks/20160528_182453.jpg"><input type="checkbox" name="F-150" value="1989 Ford F-150">Add to Cart</div>
+        <div class="grid-item">1989 Ford F-150  <br><img src="carpicks/20160528_182453.jpg"><input type="checkbox" name="F150" value="1989 Ford F-150">Add to Cart</div>
 
         <div class="grid-item">2004 Buick Lesabre Custom  <br><img src="carpicks/20180329_102604.jpg"><input type="checkbox" name="Lesabre" value="2004 Buick Lesabre Custom">Add to Cart</div>
     </div>
