@@ -23,6 +23,11 @@ session_start();
    echo "$Fusion<br>";
    echo "$Honda<br>";
    $_SESSION['camaro'] = $camaro;
+   $_SESSION['F150'] = $F150;
+   $_SESSION['Lesabre'] = $Lesabre;
+   $_SESSION['RV'] = $RV;
+   $_SESSION['Fusion'] = $Fusion;
+   $_SESSION['Honda'] = $Honda;
 ?>
 <input type="text" name="camaro" value=camaro >Test
  <input type="submit" value="Proceed to Checkout">

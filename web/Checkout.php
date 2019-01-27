@@ -10,12 +10,17 @@ session_start();
 ?>
    <?php
    $camaro = $_SESSION['camaro'];
+   $F150 = $_SESSION['F150']; 
+   $Lesabre = $_SESSION['Lesabre'];
+   $RV = $_SESSION['RV'];
+   $Fusion = $_SESSION['Fusion'];
+   $Honda = $_SESSION['Honda'];
    // $camaro = $_POST['camaro'];
-   $F150 = $_POST['F150'];
-   $Lesabre = $_POST['Lesabre'];
-   $RV = $_POST['RV'];
-   $Fusion = $_POST['Fusion'];
-   $Honda = $_POST['Honda'];
+   // $F150 = $_POST['F150'];
+   // $Lesabre = $_POST['Lesabre'];
+   // $RV = $_POST['RV'];
+   // $Fusion = $_POST['Fusion'];
+   // $Honda = $_POST['Honda'];
    echo "$camaro<br>";
    echo "$F150<br>";
    echo "$Lesabre<br>";
