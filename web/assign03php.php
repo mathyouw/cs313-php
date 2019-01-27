@@ -7,6 +7,9 @@
    
 </head>
 <body>
+	<?php
+session_start();
+?>
 <?php
 $username = $_POST['name'];
 $email = $_POST['email'];
@@ -14,6 +17,7 @@ $streetAddress = $_POST['streetAddress'];
 $City = $_POST['City'];
 $State = $_POST['State'];
 $zipcode = $_POST{'zipcode'};
+
 $camaro = $_SESSION['camaro'];
 $F150 = $_SESSION['F150']; 
 $Lesabre = $_SESSION['Lesabre'];
