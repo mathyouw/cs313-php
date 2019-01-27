@@ -9,6 +9,7 @@
 </head>
 <body>
    <div class="a">
+   <h2>Your Cart</h2>
 <?php
 session_start();
 ?>
