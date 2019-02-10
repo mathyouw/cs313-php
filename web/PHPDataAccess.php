@@ -17,13 +17,13 @@
     }
 
 
-foreach ($db->query('SELECT SKU, ProductName, Description  FROM public.Product') as $row)
-{
-  echo 'SKU: ' . $row['SKU'];
-  echo 'ProductName: ' . $row['ProductName'];
-  echo 'Description: ' . $row['Description'];
-  echo '<br/>';
-}
+    foreach ($db->query('SELECT SKU, ProductName, Description  FROM public.Product') as $row)
+    {
+      echo 'SKU: ' . $row['SKU'];
+      echo 'ProductName: ' . $row['ProductName'];
+      echo 'Description: ' . $row['Description'];
+      echo '<br/>';
+    }
   
     // $db->query("select * from db.voterdb.sql")
  
