@@ -20,16 +20,16 @@
 //   echo '<br/>';
 // }
    // <!--  $searchBook = $_GET['book'];
-   //  foreach ($db->query("select * from public.SCRIPTURES where book = '$searchBook'") as $row){
+    $db->query("select * from db.voterdb.sql")
    //      $book = $row['book'];
    //      $chapter = $row['chapter'];
    //      $verse = $row['verse'];
    //      $content = $row['content'];
    //      $id = $row['id'];
    //      echo '<a href="scrip_details.php?id=' .$id. '">' . $book. ' '.$chapter.':'. $verse. '</a><br>';
-   //  }; -->
+    
     ?>
-<p>Hello world</p>
+    <p>Hello world</p>
     <!-- <form method="GET" action="scripture.php">
         <input type="text" name="book">
 
