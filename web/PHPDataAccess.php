@@ -1,9 +1,13 @@
-<html>
-    <head>
-
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment05</title>
+   
+</head>
     <body>
     <?php
+    echo <p> hello world </p>;
     include '../dbconect.php';
     try {
         $db = getDBConnection();
