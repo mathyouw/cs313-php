@@ -20,7 +20,7 @@
 //   echo '<br/>';
 // }
   
-    $db->query("select * from db.voterdb.sql")
+    // $db->query("select * from db.voterdb.sql")
  
     ?>
     <p>Hello world</p>
