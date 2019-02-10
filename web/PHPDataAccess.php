@@ -17,7 +17,7 @@
     }
 
 
-foreach ($db->query('SELECT * FROM public.Product') as $row)
+foreach ($db->query('SELECT SKU, ProductName, Description  FROM public.Product') as $row)
 {
   echo 'SKU: ' . $row['SKU'];
   echo 'ProductName: ' . $row['ProductName'];
