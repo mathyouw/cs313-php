@@ -13,12 +13,12 @@
     }
 
 
-    foreach ($db->query('SELECT username, password FROM note_user') as $row)
-{
-  echo 'user: ' . $row['username'];
-  echo ' password: ' . $row['password'];
-  echo '<br/>';
-}
+//     foreach ($db->query('SELECT username, password FROM note_user') as $row)
+// {
+//   echo 'user: ' . $row['username'];
+//   echo ' password: ' . $row['password'];
+//   echo '<br/>';
+// }
    <!--  $searchBook = $_GET['book'];
     foreach ($db->query("select * from public.SCRIPTURES where book = '$searchBook'") as $row){
         $book = $row['book'];
