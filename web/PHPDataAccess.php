@@ -30,11 +30,11 @@
    //  }; -->
     ?>
 <p>Hello world</p>
-    <form method="GET" action="scripture.php">
+    <!-- <form method="GET" action="scripture.php">
         <input type="text" name="book">
 
         <button type="submit">Submit</button>
-    </form>
+    </form> -->
 
     </body>
 
