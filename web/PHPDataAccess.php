@@ -7,7 +7,7 @@
 </head>
     <body>
     <?php
-    echo <p> hello world </p>;
+    echo '<p> hello world </p>';
     include '../dbconect.php';
     try {
         $db = getDBConnection();
