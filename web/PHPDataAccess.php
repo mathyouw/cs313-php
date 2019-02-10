@@ -17,17 +17,18 @@
     }
 
 
-foreach ($db->query('SELECT username, password FROM note_user') as $row)
+foreach ($db->query('SELECT * FROM public.Product') as $row)
 {
-  echo 'user: ' . $row['username'];
-  echo ' password: ' . $row['password'];
+  echo 'SKU: ' . $row['SKU'];
+  echo 'ProductName: ' . $row['ProductName'];
+  echo 'Description: ' . $row['Description'];
   echo '<br/>';
 }
   
     // $db->query("select * from db.voterdb.sql")
  
     ?>
-    <p>Hello world</p>
+
     <!-- <form method="GET" action="scripture.php">
         <input type="text" name="book">
 
