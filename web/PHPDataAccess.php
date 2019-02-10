@@ -29,7 +29,7 @@
    //      echo '<a href="scrip_details.php?id=' .$id. '">' . $book. ' '.$chapter.':'. $verse. '</a><br>';
    //  }; -->
     ?>
-
+<p>Hello world</p>
     <form method="GET" action="scripture.php">
         <input type="text" name="book">
 
