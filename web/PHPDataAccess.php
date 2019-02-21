@@ -10,8 +10,9 @@
     echo '<p> hello world </p>';
     include '../dbconect.php';
     try {
+        echo "no error1";
         $db = getDBConnection();
-        echo "no error";
+        echo "no error2";
     }
     catch(Exception $exception){
         echo "here error";
