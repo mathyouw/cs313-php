@@ -2,6 +2,7 @@
 function getDBConnection(){
     try
     {
+      echo "in dbconnect";
       $dbUrl = getenv('DATABASE_URL');
 
       $dbOpts = parse_url($dbUrl);

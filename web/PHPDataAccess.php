@@ -6,9 +6,11 @@
    
 </head>
     <body>
+
     <?php
+
     echo '<p> hello world </p>';
-    include '../dbconect.php';
+    include 'dbconect.php';
     try {
         echo "no error1";
         $db = getDBConnection();
