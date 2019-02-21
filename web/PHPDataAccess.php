@@ -18,9 +18,10 @@
         echo $exception->getMessage();
     }
 
-
+    echo "before foreeach";
     foreach ($db->query('SELECT * FROM public.product') as $row)
     {
+        echo "in foreach";
       echo 'SKU: ' . $row['sku'];
       echo 'ProductName: ' . $row['product_name'];
       echo 'Description: ' . $row['description'];
