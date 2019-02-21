@@ -11,6 +11,7 @@
     include '../dbconect.php';
     try {
         $db = getDBConnection();
+        echo "no error";
     }
     catch(Exception $exception){
         echo "here error";
@@ -18,7 +19,7 @@
     }
 
 
-    foreach ($db->query('SELECT sku, product_name, description  FROM public.product') as $row)
+    foreach ($db->query('SELECT * FROM public.product') as $row)
     {
       echo 'SKU: ' . $row['sku'];
       echo 'ProductName: ' . $row['product_name'];
