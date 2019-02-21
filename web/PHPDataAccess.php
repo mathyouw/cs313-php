@@ -13,15 +13,16 @@
         $db = getDBConnection();
     }
     catch(Exception $exception){
+        echo "here error";
         echo $exception->getMessage();
     }
 
 
-    foreach ($db->query('SELECT SKU, ProductName, Description  FROM public.Product') as $row)
+    foreach ($db->query('SELECT sku, product_name, description  FROM public.product') as $row)
     {
-      echo 'SKU: ' . $row['SKU'];
-      echo 'ProductName: ' . $row['ProductName'];
-      echo 'Description: ' . $row['Description'];
+      echo 'SKU: ' . $row['sku'];
+      echo 'ProductName: ' . $row['product_name'];
+      echo 'Description: ' . $row['description'];
       echo '<br/>';
     }
   
