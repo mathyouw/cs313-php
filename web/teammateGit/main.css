@@ -1,0 +1,134 @@
+body {
+  background-color: lightgrey; }
+h2, #p2, h1, form, h3 { text-align: center;}
+strong {font-size: 16px;}
+.button {
+  background-color: #363636;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #363636;}
+.tooltip, .active {
+  position: relative;
+  display: inline-block;}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #7da891;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute; /* Position the tooltip */
+  z-index: 1;}
+.tooltip:hover {
+  visibility: visible;}
+li {
+  float: left;}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;}
+li a:hover {
+  background-color: #7da891;}
+.active {
+  background-color: #7da891;
+  color: white;}
+hr {width: 30%;
+    margin-left 30%;
+    text-align: center; }
+* { margin: 0px; padding: 0px; }
+.header {
+width: 40%;
+margin: 50px auto 0px;
+color: white;
+background: #7da891;
+text-align: center;
+border: 1px solid #B0C4DE;
+border-bottom: none;
+border-radius: 10px 10px 0px 0px;
+padding: 20px;
+}
+form, .content {
+width: 40%;
+margin: 0px auto;
+padding: 20px;
+border: 1px solid #B0C4DE;
+background: #e6e6e6;
+border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+margin: 10px 0px 10px 0px;
+}
+.input-group label {
+display: block;
+text-align: left;
+margin: 3px;
+}
+.input-group input {
+height: 30px;
+width: 93%;
+padding: 5px 10px;
+font-size: 16px;
+border-radius: 5px;
+border: 1px solid gray;
+}
+#user_type {
+height: 40px;
+width: 98%;
+padding: 5px 10px;
+background: white;
+font-size: 16px;
+border-radius: 5px;
+border: 1px solid gray;
+}
+.btn {
+padding: 10px;
+font-size: 15px;
+color: white;
+background: #7da891;
+border: none;
+border-radius: 5px;
+}
+.error {
+width: 92%;
+margin: 0px auto;
+padding: 10px;
+border: 1px solid #a94442;
+color: #a94442;
+background: #f2dede;
+border-radius: 5px;
+text-align: left;
+}
+.success {
+color: #3c763d;
+background: #dff0d8;
+border: 1px solid #3c763d;
+margin-bottom: 20px;
+}
+.profile_info img {
+display: inline-block;
+width: 50px;
+height: 50px;
+margin: 5px;
+float: left;
+}
+.profile_info div {
+display: inline-block;
+margin: 5px;
+}
+.profile_info:after {
+content: "";
+display: block;
+clear: both;
+}
