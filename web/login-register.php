@@ -1,3 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    //using the pure stylesheet because I believe it looks nice and is free to use
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Assignment05</title>
+
+</head>
+    <body>
+
+
+
+
 <?php
 /**
  * Created by PhpStorm.
@@ -6,35 +20,37 @@
  * Time: 8:12 PM
  */
 
-<form class="pure-form pure-form-aligned">
+
+?>
+    <form class="pure-form pure-form-aligned" action="/PHPDataAccess.php">
         <fieldset>
             <div class="pure-control-group">
-                <label for="name">Username</label>
+                <label for="name">Voter Name</label>
                 <input id="name" type="text" placeholder="Username">
                 <span class="pure-form-message-inline">This is a required field.</span>
             </div>
 
             <div class="pure-control-group">
-                <label for="password">Password</label>
-                <input id="password" type="password" placeholder="Password">
+                <label for="age">Age</label>
+                <input id="age" type="number" placeholder="age">
             </div>
 
             <div class="pure-control-group">
-                <label for="email">Email Address</label>
-                <input id="email" type="email" placeholder="Email Address">
+                <label for="address">Street Address</label>
+                <input id="address" type="text" placeholder=" 123 downtheroad">
             </div>
 
-            <div class="pure-control-group">
-                <label for="foo">Supercalifragilistic Label</label>
-                <input id="foo" type="text" placeholder="Enter something here...">
-            </div>
 
             <div class="pure-controls">
-                <label for="cb" class="pure-checkbox">
-                    <input id="cb" type="checkbox"> I've read the terms and conditions
-                </label>
+
 
                 <button type="submit" class="pure-button pure-button-primary">Submit</button>
             </div>
         </fieldset>
     </form>
+
+
+
+    </body>
+
+</html>
