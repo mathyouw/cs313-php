@@ -8,8 +8,8 @@
 </head>
     <body>
 
-    Welcome <?php echo $_POST["name"]; ?><br>
-    Your street address is: <?php echo $_POST["address"]; ?>
+    Welcome <?php echo $_GET["name"]; ?><br>
+    Your street address is: <?php echo $_GET["address"]; ?>
 
     <?php
 
