@@ -26,7 +26,7 @@
         <fieldset>
             <div class="pure-control-group">
                 <label for="name">Voter Name</label>
-                <input id="name" type="text" placeholder="Username">
+                <input id="name" type="text" placeholder="votername">
                 <span class="pure-form-message-inline">This is a required field.</span>
             </div>
 
@@ -48,7 +48,11 @@
             </div>
         </fieldset>
     </form>
-
+<form action="welcome.php" method="post">
+    Name: <input type="text" name="name"><br>
+    E-mail: <input type="text" name="email"><br>
+    <input type="submit">
+</form>
 
 
     </body>
