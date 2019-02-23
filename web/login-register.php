@@ -22,7 +22,7 @@
 
 
 ?>
-    <form class="pure-form pure-form-aligned" action="/PHPDataAccess.php" method="get">
+    <form class="pure-form pure-form-aligned" action="/PHPDataAccess.php" method="post">
         <fieldset>
             <div class="pure-control-group">
                 <label for="name">Voter Name</label>

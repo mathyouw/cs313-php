@@ -9,7 +9,7 @@
     <body>
 
     Welcome <?php echo $_POST["name"]; ?><br>
-    Your street address is: <?php echo $_POST["email"]; ?>
+    Your street address is: <?php echo $_POST["address"]; ?>
 
     <?php
 
