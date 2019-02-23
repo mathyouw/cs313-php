@@ -26,18 +26,18 @@
         <fieldset>
             <div class="pure-control-group">
                 <label for="name">Voter Name</label>
-                <input id="name" type="text" placeholder="votername">
+                <input id="name" name="name" type="text" placeholder="votername">
                 <span class="pure-form-message-inline">This is a required field.</span>
             </div>
 
             <div class="pure-control-group">
                 <label for="age">Age</label>
-                <input id="age" type="number" placeholder="age">
+                <input id="age"  name="age" type="number" placeholder="age">
             </div>
 
             <div class="pure-control-group">
                 <label for="address">Street Address</label>
-                <input id="address" type="text" placeholder=" 123 downtheroad">
+                <input id="address" name="address" type="text" placeholder=" 123 downtheroad">
             </div>
 
 
