@@ -21,19 +21,16 @@
 
     include 'dbconect.php';
     try {
-//        echo "no error1";
         $db = getDBConnection();
-//        echo "no error2";
     }
     catch(Exception $exception){
-        echo "here error";
         echo $exception->getMessage();
     }
 
-//    echo "before foreeach";
+
     foreach ($db->query('SELECT * FROM public.product') as $row)
     {
-        echo "in foreach";
+
       echo 'SKU: ' . $row['sku'];
       echo 'ProductName: ' . $row['product_name'];
       echo 'Description: ' . $row['description'];
