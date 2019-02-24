@@ -7,7 +7,7 @@
     <title>Assignment05</title>
    
 </head>
-    <body class = content>
+    <table class = content>
 
     <h1> Welcome <?php echo $_POST["name"]; ?><br></h1>
 
@@ -27,20 +27,25 @@
         echo $exception->getMessage();
     }
 
+    <table>
+    <tr>
+    <td>Alfreds Futterkiste</td>
 
-    foreach ($db->query('SELECT * FROM public.product') as $row)
-    {
+  </tr>
+        foreach ($db->query('SELECT * FROM public.product') as $row)
+        {
+            <td>
+              echo 'SKU: ' . $row['sku'];
+              echo 'ProductName: ' . $row['product_name'];
+              echo 'Description: ' . $row['description'];
+              echo '<br/>';
+            </td>
+        }
 
-      echo 'SKU: ' . $row['sku'];
-      echo 'ProductName: ' . $row['product_name'];
-      echo 'Description: ' . $row['description'];
-      echo '<br/>';
-    }
-  
-    // $db->query("select * from db.voterdb.sql")
- 
-    ?>
+        // $db->query("select * from db.voterdb.sql")
 
+        ?>
+    </table>
 
     <!-- <form method="GET" action="scripture.php">
         <input type="text" name="book">
