@@ -7,7 +7,7 @@
     <title>Assignment05</title>
    
 </head>
-    <body>
+    <body class = content>
 
     Welcome <?php echo $_POST["name"]; ?><br>
 <!--    Your street address is: --><?php //echo $_POST["address"]; ?>

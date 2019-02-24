@@ -3,3 +3,8 @@ body {
     color: azure;
     font-size: 1.1em;
 }
+
+.content {
+    max-width: 500px;
+    margin: auto;
+}
