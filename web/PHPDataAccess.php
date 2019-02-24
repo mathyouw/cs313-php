@@ -15,7 +15,7 @@
 
     <?php
 
-    echo '<p> hello world </p>';
+    echo '<p> Please vote for your favorite item. </p>';
 
 
 
