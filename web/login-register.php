@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!--    using the pure stylesheet because I believe it looks nice and is free to use-->
+<!--    using the pure stylesheet because I believe it looks nice and it is free to use-->
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
     <meta charset="UTF-8">
     <title>Assignment05</title>
@@ -48,11 +48,11 @@
             </div>
         </fieldset>
     </form>
-<form action="PHPDataAccess.php" method="post">
-    Name: <input type="text" name="name"><br>
-    E-mail: <input type="text" name="email"><br>
-    <input type="submit">
-</form>
+<!--<form action="PHPDataAccess.php" method="post">-->
+<!--    Name: <input type="text" name="name"><br>-->
+<!--    E-mail: <input type="text" name="email"><br>-->
+<!--    <input type="submit">-->
+<!--</form>-->
 
 
     </body>
