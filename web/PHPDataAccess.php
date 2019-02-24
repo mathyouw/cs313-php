@@ -28,10 +28,7 @@
     }
 
     <table>
-    <tr>
-    <td>Alfreds Futterkiste</td>
-
-  </tr>
+  
         foreach ($db->query('SELECT * FROM public.product') as $row)
         {
             <td>
