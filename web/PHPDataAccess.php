@@ -9,7 +9,8 @@
 </head>
     <body class = content>
 
-    Welcome <?php echo $_POST["name"]; ?><br>
+    <h1> Welcome <?php echo $_POST["name"]; ?><br></h1>
+
 <!--    Your street address is: --><?php //echo $_POST["address"]; ?>
 
     <?php
