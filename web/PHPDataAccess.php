@@ -15,10 +15,11 @@
 
     <?php
 
-    echo '<p> Please vote for your favorite item. </p>';
+    echo '<p> Please vote for your favorite item. </p>';?>
 
 
-
+</div>
+<?php
     include 'dbconect.php';
     try {
         $db = getDBConnection();
@@ -43,7 +44,6 @@
 
         ?>
 
-</div>
     <!-- <form method="GET" action="scripture.php">
         <input type="text" name="book">
 
