@@ -27,22 +27,22 @@
         echo $exception->getMessage();
     }
 
-    <table>
-  
+
+
         foreach ($db->query('SELECT * FROM public.product') as $row)
         {
-            <td>
+
               echo 'SKU: ' . $row['sku'];
               echo 'ProductName: ' . $row['product_name'];
               echo 'Description: ' . $row['description'];
               echo '<br/>';
-            </td>
+
         }
 
         // $db->query("select * from db.voterdb.sql")
 
         ?>
-    </table>
+
 
     <!-- <form method="GET" action="scripture.php">
         <input type="text" name="book">
