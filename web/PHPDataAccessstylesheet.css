@@ -11,6 +11,10 @@ body {
     margin: auto;
 }
 
+div {
+    background-color: navajowhite;
+}
+
 h1 {
     text-align:center
 }
