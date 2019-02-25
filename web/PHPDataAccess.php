@@ -8,7 +8,7 @@
    
 </head>
     <table class = content>
-<span class = box-shadow>
+<div class = box>
     <h1> Welcome <?php echo $_POST["name"]; ?><br></h1>
 
 <!--    Your street address is: --><?php //echo $_POST["address"]; ?>
@@ -18,7 +18,7 @@
     echo '<p> Please vote for your favorite item. </p>';?>
 
 
-</span>
+</div>
 <?php
     include 'dbconect.php';
     try {
