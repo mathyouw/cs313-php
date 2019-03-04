@@ -15,7 +15,9 @@ body {
     background: url("Wallpaper-Paper-006.jpg");
     background-repeat: no-repeat;
     background-size: 500px 200px;
-    margin:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .box
