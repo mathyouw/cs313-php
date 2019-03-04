@@ -12,7 +12,8 @@ body {
 }
 
 .paper{
-    background-image: url('Wallpaper-Paper-006.jpg');
+    background: url("Wallpaper-Paper-006.jpg");
+    background-size: 300px 100px;
 }
 
 .box
