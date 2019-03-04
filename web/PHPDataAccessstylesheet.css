@@ -13,6 +13,7 @@ body {
 
 .paper{
     background: url("Wallpaper-Paper-006.jpg");
+    background-repeat: no-repeat;
     background-size: 300px 100px;
 }
 
