@@ -8,7 +8,7 @@
    
 </head>
     <table class = content>
-<div  class = box-shadow>
+<div class = box-shadow>
     <h1> Welcome <?php echo $_POST["name"]; ?><br></h1>
 
 <!--    Your street address is: --><?php //echo $_POST["address"]; ?>
