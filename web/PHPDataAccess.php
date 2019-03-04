@@ -23,7 +23,7 @@
         <p>The box-shadow property can be used to create paper-like cards:</p>
 
         <div class="polaroid">
-            <img src="rock600x400.jpg" alt="Norway" style="width:100%">
+            <img src="Wallpaper-Paper-006.jpg" alt="Norway" style="width:100%">
             <div class="container">
                 <p>Hardanger, Norway</p>
             </div>
