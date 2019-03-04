@@ -12,13 +12,11 @@ body {
 }
 
 .paper{
-    background: url("Wallpaper-Paper-006.jpg");
-    background-repeat: no-repeat;
+    background: url("Wallpaper-Paper-006.jpg") no-repeat center;
     background-size: 500px 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
+
+
 
 .box
 {
