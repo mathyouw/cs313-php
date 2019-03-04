@@ -14,6 +14,7 @@ body {
 .paper{
     background: url("Wallpaper-Paper-006.jpg") no-repeat center;
     background-size: 500px 400px;
+    box-shadow: 10px 10px;
 }
 
 
