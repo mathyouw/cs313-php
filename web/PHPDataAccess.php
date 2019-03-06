@@ -55,10 +55,10 @@
         <div style="width: 100px; float:left; height:100px; background:gray; margin:10px">
             First DIV
         </div>
-        <div style="width: 100px; float:left; height:100px; background:yellow; margin:10px">
+        <div style="width: 100px; float:left; height:100px; background:yellow; margin:10px, clear: left">
             Second DIV
         </div>
-        <br>
+
         <div style="width: 100px; float:left; height:100px; background:gray; margin:10px">
             First DIV
         </div>
