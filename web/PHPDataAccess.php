@@ -52,11 +52,8 @@
             echo '<br/>';
             echo '</div>';
             echo "</div>";
-      
-              echo 'SKU: ' . $row['sku'];
-              echo 'ProductName: ' . $row['product_name'];
-              echo 'Description: ' . $row['description'];
-              echo '<br/>';
+
+             
 
         }
 
