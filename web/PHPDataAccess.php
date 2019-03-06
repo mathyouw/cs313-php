@@ -46,14 +46,16 @@
             echo '<div style =" width: 75%; margin: 0 auto;">';
             echo "<div style='width: 200px; float:left; height:200px; background-image: url(Wallpaper-Paper-006.jpg); margin:10px'>";
 //            First DIV
-            echo 'SKU: ' . $row['sku'];
+            echo 'SKU: ' . $row['sku'] ;
+            echo '<br>';
             echo 'ProductName: ' . $row['product_name'];
+            echo '<br>';
             echo 'Description: ' . $row['description'];
-            echo '<br/>';
+            echo '<br>';
             echo '</div>';
             echo "</div>";
 
-             
+
 
         }
 
