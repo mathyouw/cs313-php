@@ -55,9 +55,9 @@
             echo $row['sku'] ;
             echo '<br>';
             echo 'ProductName: ' . $row['product_name'];
-            echo '<br>';
+            echo "<br>";
             echo 'Description: ';
-            echo '<br';
+            echo '<br>';
             echo $row['description'];
             echo '<br>';
             echo '</div>';
