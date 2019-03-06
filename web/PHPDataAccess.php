@@ -7,7 +7,7 @@
     <title>Assignment05</title>
    
 </head>
-    <table class = content>
+    <body class = content>
 <div class = paper>
     <h1> Welcome <?php echo $_POST["name"]; ?><br></h1>
 
