@@ -52,7 +52,7 @@
         // $db->query("select * from db.voterdb.sql")
 
         ?>
-        <div style="width: 100px; float:left; height:100px; background:gray; margin:10px">
+        <div style="width: 100px; float:left; height:100px; background-image: url("Wallpaper-Paper-006.jpg"); margin:10px">
             First DIV
         </div>
         <div style="width: 100px; float:left; height:100px; background:yellow; margin:10px">
