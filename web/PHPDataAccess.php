@@ -53,7 +53,8 @@
 
         ?>
 
-        <div style ="position: relative; left: 25%;">
+        <div style =" width: 70%;
+    margin: 0 auto;">
         <div style="width: 200px; float:left; height:200px; background-image: url(Wallpaper-Paper-006.jpg); margin:10px">
             First DIV
         </div>
