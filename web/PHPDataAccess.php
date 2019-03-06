@@ -47,14 +47,12 @@
             echo "<div style='width: 200px; float:left; height:200px; background-image: url(Wallpaper-Paper-006.jpg); margin:10px'>";
 //            First DIV
             echo 'SKU: ' . $row['sku'];
-              echo 'ProductName: ' . $row['product_name'];
-              echo 'Description: ' . $row['description'];
-              echo '<br/>';
+            echo 'ProductName: ' . $row['product_name'];
+            echo 'Description: ' . $row['description'];
+            echo '<br/>';
             echo '</div>';
-       echo "<div style='width: 200px; float:left; height:200px; background:yellow; margin:10px'>
-            Second DIV
-        </div>
-        </div>";
+            echo "</div>";
+      
               echo 'SKU: ' . $row['sku'];
               echo 'ProductName: ' . $row['product_name'];
               echo 'Description: ' . $row['description'];
