@@ -53,7 +53,7 @@
 
         ?>
 
-        <div style ="center-align">
+        <div style ="float: right; position: relative; left: -50%; /* or right 50% */ text-align: left;">
         <div style="width: 100px; float:left; height:100px; background-image: url(Wallpaper-Paper-006.jpg); margin:10px">
             First DIV
         </div>
