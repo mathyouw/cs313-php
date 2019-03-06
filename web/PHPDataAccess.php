@@ -62,12 +62,15 @@
             Second DIV
         </div>
         </div>
-        <div style="width: 100px; float:left; height:100px; background:gray; margin:10px; clear: left">
+<div style =" width: 75%;
+    margin: 0 auto;">
+        <div style="width: 200px; float:left; height:200px; background:gray; margin:10px; clear: left">
             First DIV
         </div>
-        <div style="width: 100px; float:left; height:100px; background:yellow; margin:10px">
+        <div style="width: 200px; float:left; height:200px; background:yellow; margin:10px">
             Second DIV
         </div>
+</div>
     <!-- <form method="GET" action="scripture.php">
         <input type="text" name="book">
 
