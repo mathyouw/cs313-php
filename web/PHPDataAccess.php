@@ -56,7 +56,9 @@
             echo '<br>';
             echo 'ProductName: ' . $row['product_name'];
             echo '<br>';
-            echo 'Description: ' . $row['description'];
+            echo 'Description: ';
+            echo '<br';
+            echo $row['description'];
             echo '<br>';
             echo '</div>';
             echo "</div>";
