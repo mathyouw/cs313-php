@@ -53,7 +53,7 @@
 
         ?>
 
-        <div style ="position: relative; transform:translateX(-50%);">
+        <div style ="position: relative;">
         <div style="width: 100px; float:left; height:100px; background-image: url(Wallpaper-Paper-006.jpg); margin:10px">
             First DIV
         </div>
