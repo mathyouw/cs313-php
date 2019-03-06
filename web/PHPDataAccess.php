@@ -43,7 +43,7 @@
         {
 
 
-            echo "<div style =' width: 75%; margin: 0 auto;'>"
+            echo '<div style =" width: 75%; margin: 0 auto;">';
             echo "<div style='width: 200px; float:left; height:200px; background-image: url(Wallpaper-Paper-006.jpg); margin:10px'>";
 //            First DIV
             echo 'SKU: ' . $row['sku'];
