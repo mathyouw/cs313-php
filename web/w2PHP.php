@@ -12,7 +12,7 @@
   
 <div><p><img class = "photo" src="42421102_2191123767798074_2123210223714828288_n.jpg" alt="Image of Wilson and a cat named tiger">  Hello All! I'm Wilson.<br> I'm a Software Engineering Major.<br> I currently work for a<br> software development<br> company in Rigby Idaho.  </p></div>
 
-<p>Generating a random number <br> between 1 and 10:<br>
+<p>Generating a random number with PHP <br> between 1 and 10:<br>
             <?php
             echo rand(1, 10);
 
