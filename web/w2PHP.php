@@ -15,6 +15,7 @@
 <p>Generating a random number <br> between 1 and 10:<br>
             <?php
             echo rand(1, 10);
+            <br> echo " ";
             ?>
         </p>
 
