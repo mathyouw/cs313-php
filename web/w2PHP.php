@@ -18,7 +18,7 @@
 
             ?>
             <br>  
-            <button type="button" onclick="alert("The cat's name is Tiger, but it was orginally named James Franko." )">Click Me for a fun fact!</button>
+            <button type="button" onclick="alert('The cat is named is Tiger, but it was orginally named James Franko.' )">Click Me for a fun fact!</button>
         </p>
 
 </div>
