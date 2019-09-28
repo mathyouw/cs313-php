@@ -12,9 +12,6 @@
   
 <div><p><img class = "photo" src="42421102_2191123767798074_2123210223714828288_n.jpg" alt="Image of Wilson and a cat named tiger">  Hello All! I'm Wilson.<br> I'm a Software Engineering Major.<br> I currently work for a<br> software development<br> company in Rigby Idaho.  </p></div>
 
-    <?php
-
-    echo '<p> Please vote for your favorite item. </p>';?>
 <p>Generating a random number between 1 and 10:
             <?php
             echo rand(1, 10);
