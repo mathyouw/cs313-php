@@ -17,7 +17,10 @@ body {
     /*box-shadow: 10px 10px;*/
 }
 
-
+.photo{
+    float: left; margin: 0px 0px 0px 0px;
+    width:200px;height:200px;
+}
 
 div.container {
     padding: 10px;
