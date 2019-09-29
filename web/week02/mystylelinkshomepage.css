@@ -14,3 +14,10 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.test {
+  text-align: right;
+  position: absolute;
+  right: 40px;
+  
+}
