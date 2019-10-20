@@ -18,6 +18,10 @@ CREATE TABLE public."MenutoIngredients"
     CONSTRAINT "Menu_ID_pkey" PRIMARY KEY ("Menu_ID")
 )
 
+
+
+
+Did not create.
 CREATE TABLE public."MenutoIngredients"
 (
     "Food_Name" character varying(50) COLLATE pg_catalog."default" NOT NULL,
