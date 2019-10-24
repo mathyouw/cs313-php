@@ -1,3 +1,12 @@
+// real tables
+
+create table Menu_Item_Recipe(MIR_ID Int, ING_ID int REFERENCES Ingredients(ING_ID), Menu_ID int REFERENCES Menu_Item(Menu_ID));
+create table Ingredients(ING_ID int primary key, ING_Name text);
+create table Menu_Item(Menu_ID Int primary key, Menu_Name text);
+
+
+// Tables I was going to use. 
+
 CREATE TABLE public."Companies"
 (
     "Company_Name" character varying(50) COLLATE pg_catalog."default" NOT NULL,
@@ -17,6 +26,11 @@ CREATE TABLE public."MenutoIngredients"
     "Ing_ID" bigint,
     CONSTRAINT "Menu_ID_pkey" PRIMARY KEY ("Menu_ID")
 )
+
+
+create table Menu_Item_Recipe(MIR_ID Int, ING_ID int REFERENCES Ingredients(ING_ID), Menu_ID int REFERENCES Menu_Item(Menu_ID));
+create table Ingredients(ING_ID int primary key, ING_Name text);
+create table Menu_Item(Menu_ID Int primary key, Menu_Name text);
 
 
 
