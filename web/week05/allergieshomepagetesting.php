@@ -25,7 +25,7 @@ $db = get_db();
         }
 //         ?>
 // <?php
-        $statement = $db->prepare("SELECT book, chapter, verse, content FROM scripture");
+        $statement = $db->prepare("SELECT ing_id, ing_name FROM ingredients");
 $statement->execute();
 
 while ($row = $statement->fetch(PDO::FETCH_ASSOC))
