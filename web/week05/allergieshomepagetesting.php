@@ -23,8 +23,8 @@ $db = get_db();
         if (session_status() == PHP_SESSION_NONE) {
             session_start();
         }
-        ?>
-<?php
+//         ?>
+// <?php
         $statement = $db->prepare("SELECT book, chapter, verse, content FROM scripture");
 $statement->execute();
 
