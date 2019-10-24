@@ -11,7 +11,7 @@ function get_db() {
 	$db = NULL;
 	try {
 		// default Heroku Postgres configuration URL
-		$dbUrl = getenv('DATABASE_URL');
+		$dbUrl = getenv('postgres://tjqgbiqaniefkg:c299c1f06ea24cae2602acd9782c54635c130c722fd5d4d01ac0d3a486f0efc0@ec2-107-20-243-220.compute-1.amazonaws.com:5432/d8q2vp3b9bjdk7');
 		if (!isset($dbUrl) || empty($dbUrl)) {
 			// example localhost configuration URL with user: "ta_user", password: "ta_pass"
 			// and a database called "scripture_ta"
