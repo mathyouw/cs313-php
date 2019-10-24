@@ -23,8 +23,8 @@ $db = get_db();
         if (session_status() == PHP_SESSION_NONE) {
             session_start();
         }
-//         ?>
-// <?php
+       ?>
+ <?php
         $statement = $db->prepare("SELECT ing_id, ing_name FROM ingredients");
 $statement->execute();
 
