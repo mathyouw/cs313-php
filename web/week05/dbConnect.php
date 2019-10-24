@@ -1,31 +1,9 @@
 <?php
-/**********************************************************
-* File: dbConnect.php
-* Author: Br. Burton
-* 
-* Description: Shows how to connect using either local
-* OR Heroku credentials, depending on whether the code
-* is executing at heroku.
-***********************************************************/
 function get_db() {
 	$db = NULL;
 	try {
 		// default Heroku Postgres configuration URL
-		$dbUrl = getenv('postgres://tjqgbiqaniefkg:c299c1f06ea24cae2602acd9782c54635c130c722fd5d4d01ac0d3a486f0efc0@ec2-107-20-243-220.compute-1.amazonaws.com:5432/d8q2vp3b9bjdk7');
-		if (!isset($dbUrl) || empty($dbUrl)) {
-			// example localhost configuration URL with user: "ta_user", password: "ta_pass"
-			// and a database called "scripture_ta"
-			$dbUrl = 'postgres://tjqgbiqaniefkg:c299c1f06ea24cae2602acd9782c54635c130c722fd5d4d01ac0d3a486f0efc0@ec2-107-20-243-220.compute-1.amazonaws.com:5432/d8q2vp3b9bjdk7';
-			// NOTE: It is not great to put this sensitive information right
-			// here in a file that gets committed to version control. It's not
-			// as bad as putting your Heroku user and password here, but still
-			// not ideal.
-			
-			// It would be better to put your local connection information
-			// into an environment variable on your local computer. That way
-			// it would work consistently regardless of whether the application
-			// were running locally or at heroku.
-		}
+		$dbUrl = getenv('DATABASE_URL');
 		// Get the various parts of the DB Connection from the URL
 		$dbopts = parse_url($dbUrl);
 		$dbHost = $dbopts["host"];
@@ -46,3 +24,4 @@ function get_db() {
 	}
 	return $db;
 }
+?>
