@@ -32,7 +32,7 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
     // name
     $book = $row['ing_name'];
     $chapter = $row['ing_id'];
-    $sqlarray = array_push($a,$book);
+    array_push($sqlarray,$book);
 
         echo "<tr>";
         echo "<td> $book </td> <td>  $chapter </td> ";
