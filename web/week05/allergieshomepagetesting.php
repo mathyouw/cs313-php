@@ -45,7 +45,7 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
 foreach ($sqlarray as $key) {
     # code...
 
-echo "<p> $sqlarray[$key] </p>";
+echo " $sqlarray[$key]<br>";
 }// echo "</div>";
 
 ?>
