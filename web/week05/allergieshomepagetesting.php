@@ -19,7 +19,13 @@ $db = get_db();
     <link rel="stylesheet" type="text/css" href="03stylesheet.css">
 </head>
 <body>
-
+<form method="post" action="displayFood.php">
+    <div class="a"><H2>Allergy Manager</H2><br></div>
+    <input type="submit" value="Let us handle it!" >
+   
+    <div class="a"><p>Please select ingredients that you are allergic to.</p></div>
+    <div class="grid-container">
+        
   <?php 
         if (session_status() == PHP_SESSION_NONE) {
             session_start();
@@ -27,20 +33,15 @@ $db = get_db();
        ?>
 
 
-<form method="post" action="displayFood.php">
-    <div class="a"><H2>Allergy Manager</H2><br></div>
-    <input type="submit" value="Let us handle it!" >
-   
-    <div class="a"><p>Please select ingredients that you are allergic to.</p></div>
-    <div class="grid-container">
+
 
   
  <?php
         $statement = $db->prepare("SELECT ing_id, ing_name FROM ingredients");
         $statement->execute();
 
-while ($row = $statement->fetch(PDO::FETCH_ASSOC))
-{
+    while ($row = $statement->fetch(PDO::FETCH_ASSOC))
+    {
     // The variable "row" now holds the complete record for that
     // row, and we can access the different values based on their
     // name
@@ -51,7 +52,7 @@ while ($row = $statement->fetch(PDO::FETCH_ASSOC))
 
      echo "<div class="grid-item"> $book  <br><input type="checkbox" name='$book' value="1989 Camaro">Add to List
     <br></div>";
-}
+    }
 
 ?>
 <!-- 
