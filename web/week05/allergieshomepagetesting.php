@@ -19,41 +19,35 @@ $db = get_db();
     <link rel="stylesheet" type="text/css" href="03stylesheet.css">
 </head>
 <body>
-<form method="post" action="displayFood.php">
-    <div class="a"><H2>Allergy Manager</H2><br></div>
-    <input type="submit" value="Let us handle it!" >
-   
-    <div class="a"><p>Please select ingredients that you are allergic to.</p></div>
-    <div class="grid-container">
-
-  <?php 
+    <?php 
         if (session_status() == PHP_SESSION_NONE) {
             session_start();
         }
- 
-
- 
+//         ?>
+// <?php
         $statement = $db->prepare("SELECT ing_id, ing_name FROM ingredients");
-        $statement->execute();
+$statement->execute();
 
-    while ($row = $statement->fetch(PDO::FETCH_ASSOC))
-    {
+while ($row = $statement->fetch(PDO::FETCH_ASSOC))
+{
     // The variable "row" now holds the complete record for that
     // row, and we can access the different values based on their
     // name
     $book = $row['ing_name'];
     $chapter = $row['ing_id'];
 
-    // echo "<p><strong>$book $chapter</strong> -<p>";
-
-     echo "<div class="grid-item"> $book  <br><input type="checkbox" name='$book' value="1989 Camaro">Add to List
-    <br></div>";
-    }
+    echo "<p><strong>$book $chapter</strong> -<p>";
+}
 
 ?>
 <!-- 
     <button onclick="window.location.href = 'Checkout.php';">Click Here</button> -->
-    
+    <form method="post" action="displayFood.php">
+    <div class="a"><H2>Allergy Manager</H2><br></div>
+    <input type="submit" value="Let us handle it!" >
+   
+    <div class="a"><p>Please select ingredients that you are allergic to.</p></div>
+    <div class="grid-container">
         <div class="grid-item">beef  <br><input type="checkbox" name="camaro" value="1989 Camaro">Add to List
     <br></div>
 
