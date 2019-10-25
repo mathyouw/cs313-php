@@ -25,7 +25,6 @@ session_start();
    foreach($_POST['checkbox_id'] as $check){
     echo "$check<br>";
    }
-   echo "$checkbox_id<br>";
    echo "$camaro<br>";
    echo "$F150<br>";
    echo "$Lesabre<br>";
