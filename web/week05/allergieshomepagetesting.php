@@ -37,7 +37,7 @@ $db = get_db();
   
  <?php
         $statement = $db->prepare("SELECT ing_id, ing_name FROM ingredients");
-$statement->execute();
+        $statement->execute();
 
 while ($row = $statement->fetch(PDO::FETCH_ASSOC))
 {
@@ -48,8 +48,8 @@ while ($row = $statement->fetch(PDO::FETCH_ASSOC))
     $chapter = $row['ing_id'];
 
     // echo "<p><strong>$book $chapter</strong> -<p>";
-    
-     echo "<div class="grid-item"> $book  <br><input type="checkbox" name=$book value="1989 Camaro">Add to List
+
+     echo "<div class="grid-item"> $book  <br><input type="checkbox" name='$book' value="1989 Camaro">Add to List
     <br></div>";
 }
 
