@@ -51,7 +51,7 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
 $rows = pg_copy_to($db, $ingredients);
 
 foreach ($rows as $ro => $value) {
-    echo $value;
+    echo $rows[$ro];
     # code...
 }
 
