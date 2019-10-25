@@ -14,6 +14,7 @@ $db = get_db();
 <body>
 
         <table>
+        <tr>
     <?php 
         if (session_status() == PHP_SESSION_NONE) {
             session_start();
@@ -34,9 +35,9 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
     $chapter = $row['ing_id'];
     $sqlarray = $row['ing_name'];
 
-        echo "<tr>";
+        
         echo "<td> $book </td> <td>  $chapter </td> ";
-        echo"</tr>";
+       
     // echo "<p><strong>$book $chapter $book[1] </strong></p>";
     // it worked until this line of code was added.
     // echo "<div class="grid-item">$book  <br><input type="checkbox">Add to List
@@ -49,6 +50,7 @@ echo " $sqlarray[$key]<br>";
 }// echo "</div>";
 
 ?>
+    </tr>
     </table>
 <!-- 
     <button onclick="window.location.href = 'Checkout.php';">Click Here</button> -->
