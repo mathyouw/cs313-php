@@ -34,7 +34,7 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
     $chapter = $row['ing_id'];
 
         echo "<tr>";
-        echo "<td> <input type="checkbox">$book </td> <td>  $chapter </td>";
+        echo "<td> <input type="checkbox" name="camaro" value=$book>$book </td> <td>  $chapter </td>";
         echo"</tr>";
     // echo "<p><strong>$book $chapter $book[1] </strong></p>";
     // it worked until this line of code was added.
