@@ -46,6 +46,16 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
 
 
 ?>
+
+<?php
+$rows = pg_copy_to($db, $ingredients);
+
+foreach ($rows as $ro => $value) {
+    echo $value;
+    # code...
+}
+
+?>
     </tr>
     </table>
 <!-- 
