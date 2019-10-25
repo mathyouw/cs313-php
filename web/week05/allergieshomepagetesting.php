@@ -37,7 +37,7 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
 
         
         echo "<td> $book </td> <td>  $chapter </td> ";
-        echo "<td><input type='checkbox' name='checkbox_id' value='" . $book . "'> </td>";
+        echo "<td><input type='checkbox' name='checkbox_id[]' value='" . $book . "'> </td>";
     echo "</tr>";
        
     // echo "<p><strong>$book $chapter $book[1] </strong></p>";
