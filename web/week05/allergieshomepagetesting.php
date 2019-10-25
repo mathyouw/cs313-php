@@ -25,7 +25,7 @@ $db = get_db();
 $statement->execute();
 
 // echo " <div class="grid-container">";
-
+echo "<form>";
 while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
 {
     // The variable "row" now holds the complete record for that
@@ -37,7 +37,7 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
 
         
         echo "<td> $book </td> <td>  $chapter </td> ";
-        echo "<td><input type=\"checkbox\" name=\"example\" class=\"radio\" value=\"example\"></td>";
+        echo "<td><input type='checkbox' name='checkbox_id' value='" . $book . "'> </td>";
     echo "</tr>";
        
     // echo "<p><strong>$book $chapter $book[1] </strong></p>";
@@ -45,6 +45,7 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
     // echo "<div class="grid-item">$book  <br><input type="checkbox">Add to List
     // <br></div>";
 }
+echo "</form>";
 
 
 ?>
