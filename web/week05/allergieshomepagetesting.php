@@ -12,7 +12,7 @@ $db = get_db();
     <link rel="stylesheet" type="text/css" href="03stylesheet.css">
 </head>
 <body>
-
+<form>
         <table>
         <tr>
     <?php 
@@ -25,7 +25,7 @@ $db = get_db();
 $statement->execute();
 
 // echo " <div class="grid-container">";
-echo "<form>";
+
 while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
 {
     // The variable "row" now holds the complete record for that
@@ -45,11 +45,13 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
     // echo "<div class="grid-item">$book  <br><input type="checkbox">Add to List
     // <br></div>";
 }
-echo "<input type="submit" value="testing!" >";
-echo "</form>";
 
 
 ?>
+
+<input type="submit" value="testing!" >
+</form>
+
 
 <?php
 $rows = pg_copy_to($db, $ingredients);
