@@ -31,7 +31,7 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
     $book = $row['ing_name'];
     $chapter = $row['ing_id'];
 
-    echo "<p><strong>$book $chapter</strong> -<p>";
+    echo "<p><strong>$book $chapter</strong></p>";
     echo "<div class="grid-item">beef  <br><input type="checkbox">Add to List
     <br></div>";
 }
