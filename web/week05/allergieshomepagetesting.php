@@ -42,8 +42,11 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
     // echo "<div class="grid-item">$book  <br><input type="checkbox">Add to List
     // <br></div>";
 }
-echo "<p> $sqlarray </p>";
-// echo "</div>";
+foreach ($sqlarray as $key) {
+    # code...
+
+echo "<p> $sqlarray[$key] </p>";
+}// echo "</div>";
 
 ?>
     </table>
