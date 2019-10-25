@@ -45,6 +45,7 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
     // echo "<div class="grid-item">$book  <br><input type="checkbox">Add to List
     // <br></div>";
 }
+echo "<input type="submit" value="testing!" >";
 echo "</form>";
 
 
