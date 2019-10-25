@@ -2,28 +2,11 @@
 <?php
 require "dbConnect.php";
 $db = get_db();
-?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Assignment05</title>
-    <link rel="stylesheet" type="text/css" href="03stylesheet.css">
-</head>
-<body>
 
-        <table>
-    <?php 
-        if (session_status() == PHP_SESSION_NONE) {
-            session_start();
-        }
-        ?>
- <?php
-        $statement = $db->prepare("SELECT ing_id, ing_name FROM ingredients");
+$statement = $db->prepare("SELECT ing_id, ing_name FROM ingredients");
 $statement->execute();
 
-// echo " <div class="grid-container">";
 while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
 {
     // The variable "row" now holds the complete record for that
@@ -41,12 +24,26 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
     // <br></div>";
 }
 
-
-
-}// echo "</div>";
-
+}
 
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment05</title>
+    <link rel="stylesheet" type="text/css" href="03stylesheet.css">
+</head>
+<body>
+
+        <table>
+    <?php 
+        if (session_status() == PHP_SESSION_NONE) {
+            session_start();
+        }
+        ?>
+
     </table>
 <!-- 
     <button onclick="window.location.href = 'Checkout.php';">Click Here</button> -->
@@ -56,7 +53,7 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
    
     <div class="a"><p>Please select ingredients that you are allergic to.</p></div>
     <div class="grid-container">
-        <div class="grid-item">beef  <br><input type="checkbox" name="camaro" value="1989 Camaro">Add to List
+        <div class="grid-item"><?php $book ?>  <br><input type="checkbox" name="camaro" value="1989 Camaro">Add to List
     <br></div>
 
         <div class="grid-item">chicken  <br><input type="checkbox" name="F150" value="1989 Ford F-150">Add to List</div>
