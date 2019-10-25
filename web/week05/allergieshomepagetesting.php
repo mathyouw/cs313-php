@@ -53,7 +53,7 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
    
     <div class="a"><p>Please select ingredients that you are allergic to.</p></div>
     <div class="grid-container">
-        <div class="grid-item"><?php $book ?>  <br><input type="checkbox" name="camaro" value="1989 Camaro">Add to List
+        <div class="grid-item">jello  <br><input type="checkbox" name="camaro" value="1989 Camaro">Add to List
     <br></div>
 
         <div class="grid-item">chicken  <br><input type="checkbox" name="F150" value="1989 Ford F-150">Add to List</div>
