@@ -12,6 +12,8 @@ $db = get_db();
     <link rel="stylesheet" type="text/css" href="03stylesheet.css">
 </head>
 <body>
+
+        <table>
     <?php 
         if (session_status() == PHP_SESSION_NONE) {
             session_start();
@@ -31,7 +33,10 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
     $book = $row['ing_name'];
     $chapter = $row['ing_id'];
 
-    echo "<p><strong>$book $chapter $book[1] </strong></p>";
+        echo "<tr>";
+        echo "<td> $row->ing_id </td> <td> $row->ing_name </td>";
+        echo"</tr>";
+    // echo "<p><strong>$book $chapter $book[1] </strong></p>";
     // it worked until this line of code was added.
     // echo "<div class="grid-item">$book  <br><input type="checkbox">Add to List
     // <br></div>";
@@ -39,6 +44,7 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
 // echo "</div>";
 
 ?>
+    </table>
 <!-- 
     <button onclick="window.location.href = 'Checkout.php';">Click Here</button> -->
     <form method="post" action="displayFood.php">
