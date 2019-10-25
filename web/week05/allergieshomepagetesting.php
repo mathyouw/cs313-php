@@ -32,6 +32,7 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
     $chapter = $row['ing_id'];
 
     echo "<p><strong>$book $chapter</strong></p>";
+    // it worked until this line of code was added.
     echo "<div class="grid-item">beef  <br><input type="checkbox">Add to List
     <br></div>";
 }
