@@ -2,30 +2,6 @@
 <?php
 require "dbConnect.php";
 $db = get_db();
-
-
-$statement = $db->prepare("SELECT ing_id, ing_name FROM ingredients");
-$statement->execute();
-
-while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
-{
-    // The variable "row" now holds the complete record for that
-    // row, and we can access the different values based on their
-    // name
-    $book = $row['ing_name'];
-    $chapter = $row['ing_id'];
-
-        // echo "<tr>";
-        // echo "<td> $book </td> <td>  $chapter </td> ";
-        // echo"</tr>";
-    // echo "<p><strong>$book $chapter $book[1] </strong></p>";
-    // it worked until this line of code was added.
-    // echo "<div class="grid-item">$book  <br><input type="checkbox">Add to List
-    // <br></div>";
-}
-
-}
-
 ?>
 
 <!DOCTYPE html>
@@ -43,7 +19,34 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
             session_start();
         }
         ?>
+ <?php
+        $statement = $db->prepare("SELECT ing_id, ing_name FROM ingredients");
+$statement->execute();
 
+// echo " <div class="grid-container">";
+while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
+{
+    // The variable "row" now holds the complete record for that
+    // row, and we can access the different values based on their
+    // name
+    $book = $row['ing_name'];
+    $chapter = $row['ing_id'];
+
+        echo "<tr>";
+        echo "<td> $book </td> <td>  $chapter </td> ";
+        echo"</tr>";
+    // echo "<p><strong>$book $chapter $book[1] </strong></p>";
+    // it worked until this line of code was added.
+    // echo "<div class="grid-item">$book  <br><input type="checkbox">Add to List
+    // <br></div>";
+}
+
+
+
+}// echo "</div>";
+
+
+?>
     </table>
 <!-- 
     <button onclick="window.location.href = 'Checkout.php';">Click Here</button> -->
@@ -53,7 +56,7 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
    
     <div class="a"><p>Please select ingredients that you are allergic to.</p></div>
     <div class="grid-container">
-        <div class="grid-item">jello  <br><input type="checkbox" name="camaro" value="1989 Camaro">Add to List
+        <div class="grid-item">beef  <br><input type="checkbox" name="camaro" value="1989 Camaro">Add to List
     <br></div>
 
         <div class="grid-item">chicken  <br><input type="checkbox" name="F150" value="1989 Ford F-150">Add to List</div>
