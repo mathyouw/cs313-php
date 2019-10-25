@@ -12,7 +12,7 @@ $db = get_db();
     <link rel="stylesheet" type="text/css" href="03stylesheet.css">
 </head>
 <body>
-<form>
+<form method="post" action="displayFood.php">
         <table>
         <tr>
     <?php 
