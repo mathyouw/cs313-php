@@ -25,18 +25,14 @@ $db = get_db();
    
     <div class="a"><p>Please select ingredients that you are allergic to.</p></div>
     <div class="grid-container">
-        
+
   <?php 
         if (session_status() == PHP_SESSION_NONE) {
             session_start();
         }
- //       ?>
+ 
 
-
-
-
-  
- // <?php
+ 
         $statement = $db->prepare("SELECT ing_id, ing_name FROM ingredients");
         $statement->execute();
 
