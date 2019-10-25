@@ -24,7 +24,6 @@ $db = get_db();
 $statement->execute();
 
 // echo " <div class="grid-container">";
-$sqlarray = array();
 while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
 {
     // The variable "row" now holds the complete record for that
@@ -32,7 +31,6 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
     // name
     $book = $row['ing_name'];
     $chapter = $row['ing_id'];
-    array_push($sqlarray,$book);
 
         echo "<tr>";
         echo "<td> $book </td> <td>  $chapter </td> ";
@@ -42,14 +40,12 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
     // echo "<div class="grid-item">$book  <br><input type="checkbox">Add to List
     // <br></div>";
 }
-echo "<tr>";
-foreach ($sqlarray as $key) {
-    # code...
 
-echo "<td> "$sqlarray[$key]"<br></td>";
+
+
 }// echo "</div>";
 
-echo "</tr>";
+
 ?>
     </table>
 <!-- 
