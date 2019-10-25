@@ -35,13 +35,14 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
     $sqlarray = $row['ing_name'];
 
         echo "<tr>";
-        echo "<td> $book </td> <td>  $chapter </td> <td>  $sqlarray </td>";
+        echo "<td> $book </td> <td>  $chapter </td> ";
         echo"</tr>";
     // echo "<p><strong>$book $chapter $book[1] </strong></p>";
     // it worked until this line of code was added.
     // echo "<div class="grid-item">$book  <br><input type="checkbox">Add to List
     // <br></div>";
 }
+echo "<p> $sqlarray </p>";
 // echo "</div>";
 
 ?>
