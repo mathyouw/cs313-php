@@ -21,7 +21,7 @@ $db = get_db();
         $statement = $db->prepare("SELECT ing_id, ing_name FROM ingredients");
 $statement->execute();
 
-echo " <div class="grid-container">";
+// echo " <div class="grid-container">";
 
 while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
 {
@@ -36,7 +36,7 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
     // echo "<div class="grid-item">$book  <br><input type="checkbox">Add to List
     // <br></div>";
 }
-echo "</div>";
+// echo "</div>";
 
 ?>
 <!-- 
