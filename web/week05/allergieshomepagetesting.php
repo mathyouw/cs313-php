@@ -24,7 +24,7 @@ $db = get_db();
 $statement->execute();
 
 // echo " <div class="grid-container">";
-
+$sqlarray;
 while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
 {
     // The variable "row" now holds the complete record for that
@@ -32,9 +32,10 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
     // name
     $book = $row['ing_name'];
     $chapter = $row['ing_id'];
+    $sqlarray = $row['ing_name'];
 
         echo "<tr>";
-        echo "<td> <input type="checkbox" name="camaro" value=$book>$book </td> <td>  $chapter </td>";
+        echo "<td> $book </td> <td>  $chapter </td> <td>  $sqlarray </td>";
         echo"</tr>";
     // echo "<p><strong>$book $chapter $book[1] </strong></p>";
     // it worked until this line of code was added.
