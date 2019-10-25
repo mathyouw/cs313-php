@@ -33,7 +33,7 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
 
     echo "<p><strong>$book $chapter</strong></p>";
     // it worked until this line of code was added.
-    echo "<div class="grid-item">$statement[1]  <br><input type="checkbox">Add to List
+    echo "<div class="grid-item">$book  <br><input type="checkbox">Add to List
     <br></div>";
 }
 echo "</div>";
