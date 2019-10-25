@@ -37,6 +37,8 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
 
         
         echo "<td> $book </td> <td>  $chapter </td> ";
+        echo "<td><input type=\"checkbox\" name=\"example\" class=\"radio\" value=\"example\"></td>";
+    echo "</tr>";
        
     // echo "<p><strong>$book $chapter $book[1] </strong></p>";
     // it worked until this line of code was added.
@@ -50,7 +52,7 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
 <?php
 $rows = pg_copy_to($db, $ingredients);
 
-foreach ($rows as $ro => $value) {
+foreach ($rows as $ro) {
     echo $rows[$ro];
     # code...
 }
