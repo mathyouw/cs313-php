@@ -1,12 +1,5 @@
   
 <?php
-/**********************************************************
-* File: viewScriptures.php
-* Author: Br. Burton
-* 
-* Description: This file shows an example of how to query a
-*   PostgreSQL database from PHP.
-***********************************************************/
 require "dbConnect.php";
 $db = get_db();
 ?>
