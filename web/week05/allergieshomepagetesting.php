@@ -24,7 +24,7 @@ $db = get_db();
 $statement->execute();
 
 // echo " <div class="grid-container">";
-$sqlarray;
+$sqlarray = 0;
 while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
 {
     // The variable "row" now holds the complete record for that
