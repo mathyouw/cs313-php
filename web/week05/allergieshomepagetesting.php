@@ -23,7 +23,7 @@ $statement->execute();
 
 echo " <div class="grid-container">";
 
-while ($row = $statement->fetch(PDO::FETCH_ASSOC))
+while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
 {
     // The variable "row" now holds the complete record for that
     // row, and we can access the different values based on their
