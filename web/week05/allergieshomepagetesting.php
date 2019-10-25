@@ -28,6 +28,8 @@ $db = get_db();
         $statement = $db->prepare("SELECT ing_id, ing_name FROM ingredients");
 $statement->execute();
 
+echo " <div class="grid-container">";
+
 while ($row = $statement->fetch(PDO::FETCH_ASSOC))
 {
     // The variable "row" now holds the complete record for that
@@ -36,8 +38,11 @@ while ($row = $statement->fetch(PDO::FETCH_ASSOC))
     $book = $row['ing_name'];
     $chapter = $row['ing_id'];
 
-    echo "<p><strong>$book $chapter</strong> -<p>";
+   
+    echo "<div class="grid-item">beef  <br><input type="checkbox" name="camaro" value="1989 Camaro">Add to List
+    <br></div>";
 }
+echo "</div>";
 
 ?>
 <!-- 
