@@ -15,7 +15,7 @@ session_start();
 ?>
  <form method="post" action="Checkout.php">
    <?php
-   $checkbox_id = $_POST['Ham'];
+   $checkbox_id = $_POST['checkbox_id'];
    $camaro = $_POST['camaro'];
    $F150 = $_POST['F150'];
    $Lesabre = $_POST['Lesabre'];
