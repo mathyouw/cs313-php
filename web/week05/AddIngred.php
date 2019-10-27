@@ -26,10 +26,10 @@ $db = get_db();
   <?php
   $ingredient1 = $_POST['ingredient1'];
   $statement = $db->prepare("INSERT INTO ingredients (ing_id, ing_name)
-  VALUES (100, " + ingredient1 +")");
+  VALUES (100, " + "$ingredient1" +")");
   $statement->execute();
 
-  echo << ingredient1; 
+  echo << "$ingredient1"; 
   ?> 
 
 
