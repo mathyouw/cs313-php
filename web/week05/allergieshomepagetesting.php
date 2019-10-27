@@ -52,8 +52,8 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
 <input type="submit" value="testing!" >
 </form>
 
-<form action="http://google.com">
-    <input type="submit" value="Go to Google" />
+<form action="AddIngred.php">
+    <input type="submit" value="Add Ingredients" />
 </form>
 <?php
 $rows = pg_copy_to($db, $ingredients);
