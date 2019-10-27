@@ -32,5 +32,15 @@ $db = get_db();
   echo << "$ingredient1"; 
   ?>  -->
 
+
+
+
+
+
+
+
+
+ 
+</div>
 </body>
 </html>
