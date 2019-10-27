@@ -13,9 +13,23 @@ $db = get_db();
       
 </head>
 <body>
-   <div class="a">
-   <h2>Add Ingradients</h2>
+  <form method="post" action="AddIngred.php">
+    <input type="text" name="Ingredient1" placeholder="Ingredient1">
+    <br>
+    <input type="text" name="email" placeholder="Email">
+    <br>
+    <textarea name="comment"></textarea>
+    <input type="submit" value="Submit">
+</form>
+  <div class="a">
+  <h2>Add Ingradients</h2>
 
+   <?php
+  $Ingredient1 = $_POST['Ingredient1'];
+  $statement = $db->prepare("INSERT INTO ingredients (ing_id, ing_name)
+  VALUES (100, Ingredient1)");
+  $statement->execute();
+  ?> 
 
 
 
