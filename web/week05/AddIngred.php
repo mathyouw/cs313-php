@@ -29,7 +29,7 @@ $db = get_db();
   VALUES (100, " + ingredient1 +")");
   $statement->execute();
 
-  echo <<
+  echo << ingredient1; 
   ?> 
 
 
