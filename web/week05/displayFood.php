@@ -22,7 +22,6 @@ session_start();
    }
   
 ?>
- <input type="submit" value="Proceed to Checkout">
 </form>
 <form method="post" action="allergieshomepagetesting.php">
 <button onclick="goBack()">Return to Allergy List</button>
