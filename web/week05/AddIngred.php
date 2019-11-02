@@ -8,8 +8,7 @@ $db = get_db();
 <head>
     <meta charset="UTF-8">
     <title>Add Ingradients</title>
-    <link rel="stylesheet" type="text/css" href="03stylesheet.css">
-
+  
       
 </head>
 <style>
