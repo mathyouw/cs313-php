@@ -36,21 +36,12 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
     $book = $row['ing_name'];
     $chapter = $row['ing_id'];
     
-     if ($chapter % 3 == 0) {echo '<tr>'; 
+    if ($chapter % 3 == 0) {echo '<tr>';}
         
         echo "<td> $book </td> <td>  $chapter </td> ";
         echo "<td><input type='checkbox' name='checkbox_id[]' value='" . $book . "'> </td>";
-    echo '</tr>';}
-    if ($chapter % 2 == 0) {echo '<tr>'; 
-        
-        echo "<td> $book </td> <td>  $chapter </td> ";
-        echo "<td><input type='checkbox' name='checkbox_id[]' value='" . $book . "'> </td>";
-    echo '</tr>';}
-    if ($chapter % 1 == 0) {echo '<tr>'; 
-        
-        echo "<td> $book </td> <td>  $chapter </td> ";
-        echo "<td><input type='checkbox' name='checkbox_id[]' value='" . $book . "'> </td>";
-    echo '</tr>';}
+   
+    if ($chapter % 3 == 0) {echo '</tr>';
        
     // echo "<p><strong>$book $chapter $book[1] </strong></p>";
     // it worked until this line of code was added.
