@@ -12,7 +12,9 @@ $db = get_db();
     <link rel="stylesheet" type="text/css" href="03stylesheet.css">
 </head>
 <body class = "bg">
-    <p><br><br></p>
+    <div align="right"><form action="AddIngred.php">
+    <input type="submit" value="Managers Only" />
+</form><br><br></div>
     <div align="center"; style="background-color: white; width: 600px;
   margin: auto; border: double;">
   <div class="a"><H1>Allergy Manager</H1>
@@ -73,9 +75,7 @@ foreach ($rows as $ro) {
 <input type="submit" value="Let us handle it!" >
 </form>
 
-<form action="AddIngred.php">
-    <input type="submit" value="Managers Only" />
-</form></div>
+</div>
 
 </div>
 
