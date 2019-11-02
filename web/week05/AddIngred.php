@@ -19,7 +19,7 @@ $db = get_db();
     <br>
     <input type="text" name="recipe" placeholder="Recipe Ingredients" required>
     <br>
-    <input type="submit" value="submit">
+    <input type="submit"  name="submit" value="submit">
   </form>
   <div class="a">
  
