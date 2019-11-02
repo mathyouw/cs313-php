@@ -8,29 +8,13 @@ $db = get_db();
 <head>
     <meta charset="UTF-8">
     <title>Add Ingradients</title>
-  
+    <link rel="stylesheet" type="text/css" href="03stylesheet.css">
+
       
 </head>
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
 
-.bg {
-  /* The image used */
-  background-image: url("https://fast-garden-06413.herokuapp.com/imagesHosted/taco-chefcartoon.jpg");
-
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-</style>
-<body>
+<body background="food_pics\taco-chefcartoon.jpg">
+  <div align="right">
    <h2>Please submit a recipe.</h2>
   <form method="post" action="AddIngred.php">
     <input type="text" name="recipetitle" placeholder="Recipe Title" required>
@@ -39,10 +23,7 @@ body, html {
     <br>
     <input type="submit"  name="submit" value="submit">
   </form>
-  <div class="a">
- 
- 
-</div>
+ </div>
 <?php
 
  echo "Before isset <br>";
