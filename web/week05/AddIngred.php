@@ -1,8 +1,3 @@
-<!-- <?php
-require "dbConnect.php";
-$db = get_db();
-?>
- -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,18 +17,6 @@ $db = get_db();
   </form>
   <div class="a">
   <h2>Add Ingradients</h2>
-
-<!--   <?php
-  $ingredient1 = $_POST['ingredient1'];
-  $statement = $db->prepare("INSERT INTO ingredients (ing_id, ing_name)
-  VALUES (100, tofu)");
-  $statement->execute();
-
-  echo << "$ingredient1"; 
-  ?>  -->
-
-
-
 
 
 
