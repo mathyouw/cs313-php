@@ -8,15 +8,16 @@
       
 </head>
 <body>
+   <h2>Please submit a recipe.</h2>
   <form method="post" action="AddIngred.php">
-    <input type="text" name="Ingredient1" placeholder="Ingredient1">
+    <input type="text" name="Ingredient1" placeholder="Recipe Title">
     <br>
-    <input type="text" name="email" placeholder="Email">
+    <input type="text" name="email" placeholder="Recipe Ingredients">
     <br>
     <input type="submit" value="Submit">
   </form>
   <div class="a">
-  <h2>Add Ingradients</h2>
+ 
 
 
 
