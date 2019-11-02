@@ -11,7 +11,7 @@ $db = get_db();
     <title>Assignment05</title>
     <link rel="stylesheet" type="text/css" href="03stylesheet.css">
 </head>
-<body background="food_pics\handwritten_italian_marketing_menu.jpg"; background-size: contain;>
+<body background="food_pics\handwritten_italian_marketing_menu.jpg"; background-size: auto;>
     <div class="a"><br><br><br><H2>Allergy Manager</H2><br></div>
     <div align="center"; style="background-color:#0CAF9C; width: 500px;
   margin: auto; border: double;">
