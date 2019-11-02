@@ -62,6 +62,7 @@ $rows = pg_copy_to($db, $ingredients);
 
 foreach ($rows as $ro) {
     echo $rows[$ro];
+    if ($row % 3 == 0) {echo '<tr>'; }
     # code...
 }
 
@@ -71,7 +72,7 @@ foreach ($rows as $ro) {
 </div>
 
 
-    
+
 <!-- 
     <button onclick="window.location.href = 'Checkout.php';">Click Here</button> -->
     <form method="post" action="displayFood.php">
