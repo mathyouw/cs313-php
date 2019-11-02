@@ -12,7 +12,26 @@ $db = get_db();
 
       
 </head>
-<body background="food_pics\taco-chefcartoon.jpg">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("food_pics\taco-chefcartoon.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+<body>
    <h2>Please submit a recipe.</h2>
   <form method="post" action="AddIngred.php">
     <input type="text" name="recipetitle" placeholder="Recipe Title" required>
