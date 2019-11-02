@@ -41,14 +41,14 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
         echo "<td> $book </td> <td>  $chapter </td> ";
         echo "<td><input type='checkbox' name='checkbox_id[]' value='" . $book . "'> </td>";
    
-    if ($chapter % 3 == 0) {echo '</tr>';}
+
        
     // echo "<p><strong>$book $chapter $book[1] </strong></p>";
     // it worked until this line of code was added.
     // echo "<div class="grid-item">$book  <br><input type="checkbox">Add to List
     // <br></div>";
 }
-
+echo '</tr>';
 
 ?>
 
