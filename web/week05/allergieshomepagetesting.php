@@ -68,7 +68,7 @@ foreach ($rows as $ro) {
 ?>
     </tr>
     </table>
-</div>
+
 
 <input type="submit" value="Let us handle it!" >
 </form>
@@ -77,7 +77,7 @@ foreach ($rows as $ro) {
     <input type="submit" value="Managers Only" />
 </form>
 
-
+</div>
 
 
     
