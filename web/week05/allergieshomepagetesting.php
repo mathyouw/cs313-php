@@ -12,9 +12,10 @@ $db = get_db();
     <link rel="stylesheet" type="text/css" href="03stylesheet.css">
 </head>
 <body class = "bg">
-    <div class="a"><br><br><br><H2>Allergy Manager</H2><br></div>
+    
     <div align="center"; style="background-color: white; width: 600px;
   margin: auto; border: double;">
+  <div class="a"><br><br><br><H2>Allergy Manager</H2><br></div>
 <form method="post" action="displayFood.php">
         <table>
         <tr>
