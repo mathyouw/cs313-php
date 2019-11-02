@@ -8,11 +8,11 @@ $db = get_db();
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Assignment05</title>
+    <title>Project 1</title>
     <link rel="stylesheet" type="text/css" href="03stylesheet.css">
 </head>
 <body class = "bg">
-    
+    <p><br><br></p>
     <div align="center"; style="background-color: white; width: 600px;
   margin: auto; border: double;">
   <div class="a"><H1>Allergy Manager</H1>
