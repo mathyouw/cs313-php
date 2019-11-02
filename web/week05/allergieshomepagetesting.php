@@ -62,7 +62,7 @@ $rows = pg_copy_to($db, $ingredients);
 
 foreach ($rows as $ro) {
     echo $rows[$ro];
-    if ($row % 3 == 0) {echo '<tr>'; }
+    if ($ro % 3 == 0) {echo '<tr>'; }
     # code...
 }
 
