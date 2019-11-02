@@ -9,7 +9,7 @@ $db = get_db();
     <meta charset="UTF-8">
     <title>Add Ingradients</title>
     <link rel="stylesheet" type="text/css" href="03stylesheet.css">
-    <script src="assign03javascript.js"></script>
+
       
 </head>
 <body>
