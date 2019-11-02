@@ -35,10 +35,10 @@ $db = get_db();
         $recipe = htmlspecialchars($_POST['recipe']);
       try{
         echo "line 56 isset <br>";
-        $result = $db->prepare("INSERT INTO users (PersonID, Username, Password, FirstName, LastName) 
-                             VALUES( :newid, :user, :pass, :fname, :lname)");
+        $result = $db->prepare("INSERT INTO intake_recipes (recipe_suggestion_name , recipe_ingredients) 
+                             VALUES( :newid, :user)");
         $result->bindParam('newid', $recipetitle);
-        $result->bindParam('fname', $recipe);
+        $result->bindParam('user', $recipe);
         echo "line 76 try <br>";
         echo $recipetitle."<br>";
         echo $recipe."<br>";
