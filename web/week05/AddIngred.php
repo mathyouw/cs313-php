@@ -27,14 +27,14 @@ $db = get_db();
 
 <?php
 
- echo "Before isset <br>";
+
     if(isset($_POST['submit'])){
-      echo "line 46 isset <br>";
+    
       $db = get_db();
       $recipetitle = htmlspecialchars($_POST['recipetitle']);
         $recipe = htmlspecialchars($_POST['recipe']);
       try{
-        echo "line 56 isset <br>";
+      
         $result = $db->prepare("INSERT INTO intake_recipes (recipe_suggestion_name , recipe_ingredients) 
                              VALUES( :newid, :user)");
         $result->bindParam('newid', $recipetitle);
