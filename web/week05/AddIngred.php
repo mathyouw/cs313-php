@@ -19,7 +19,7 @@ $db = get_db();
     <br>
     <input type="text" name="recipe" placeholder="Recipe Ingredients" required>
     <br>
-    <input type="submit" value="Submit">
+    <input type="submit" value="submit">
   </form>
   <div class="a">
  
@@ -46,7 +46,7 @@ $db = get_db();
         $rows = $result->fetch(PDO::FETCH_ASSOC);
       }
       catch (Exception $e) {
-        echo "Could not create new user". $e->getMessage();
+        echo "Could not upload recipe". $e->getMessage();
         exit();
       }
     }
