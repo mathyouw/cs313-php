@@ -39,9 +39,10 @@ $db = get_db();
                              VALUES( :newid, :user)");
         $result->bindParam('newid', $recipetitle);
         $result->bindParam('user', $recipe);
-        echo "line 76 try <br>";
+        echo "Recipe submitted: <br>";
         echo $recipetitle."<br>";
         echo $recipe."<br>";
+        echo "Please submit another recipe.<br>";
         $result->execute();
         $rows = $result->fetch(PDO::FETCH_ASSOC);
       }
