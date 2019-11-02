@@ -20,7 +20,7 @@ body, html {
 
 .bg {
   /* The image used */
-  background-image: url("food_pics\taco-chefcartoon.jpg");
+  background = "food_pics\taco-chefcartoon.jpg";
 
   /* Full height */
   height: 100%; 
