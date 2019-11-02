@@ -20,7 +20,7 @@ body, html {
 
 .bg {
   /* The image used */
-  background = "food_pics\taco-chefcartoon.jpg";
+  background-image: url("https://fast-garden-06413.herokuapp.com/imagesHosted/taco-chefcartoon.jpg");
 
   /* Full height */
   height: 100%; 
