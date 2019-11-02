@@ -13,7 +13,7 @@ $db = get_db();
 </head>
 <body class = "bg">
     <div class="a"><br><br><br><H2>Allergy Manager</H2><br></div>
-    <div align="center"; style="background-color:#0CAF9C; width: 500px;
+    <div align="center"; style="background-color: white; width: 800px;
   margin: auto; border: double;">
 <form method="post" action="displayFood.php">
         <table>
