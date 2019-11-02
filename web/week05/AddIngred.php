@@ -14,7 +14,7 @@ $db = get_db();
 </head>
 
 <body background="food_pics\taco-chefcartoon.jpg">
-  <div align="left">
+  <div style="background-color:lightblue" >
    <h2>Please submit a recipe.</h2>
   <form method="post" action="AddIngred.php">
     <input type="text" name="recipetitle" placeholder="Recipe Title" required>
