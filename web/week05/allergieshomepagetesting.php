@@ -36,7 +36,7 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
     $book = $row['ing_name'];
     $chapter = $row['ing_id'];
     
-
+    if ($rows % 3 == 0) {echo '<tr>'; }
         
         echo "<td> $book </td> <td>  $chapter </td> ";
         echo "<td><input type='checkbox' name='checkbox_id[]' value='" . $book . "'> </td>";
@@ -62,7 +62,7 @@ $rows = pg_copy_to($db, $ingredients);
 
 foreach ($rows as $ro) {
     echo $rows[$ro];
-    if ($ro % 3 == 0) {echo '<tr>'; }
+    if ($rows % 3 == 0) {echo '<tr>'; }
     # code...
 }
 
