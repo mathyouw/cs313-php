@@ -24,7 +24,7 @@ $db = get_db();
     <br>
     <input type="submit"  name="submit" value="submit">
   </form>
- </div>
+
 <?php
 
  echo "Before isset <br>";
@@ -52,5 +52,6 @@ $db = get_db();
       }
     }
     ?>
+     </div>
 </body>
 </html>
