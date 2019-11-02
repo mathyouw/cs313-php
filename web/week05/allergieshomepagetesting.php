@@ -43,9 +43,9 @@ while (($row = $statement->fetch(PDO::FETCH_ASSOC)))
     $chapter = $row['ing_id'];
     
     if ($chapter % 3 == 0) {echo '<tr>';}
-        
-        echo "<td> $book </td> <td>  $chapter </td> ";
         echo "<td><input type='checkbox' name='checkbox_id[]' value='" . $book . "'> </td>";
+        echo "<td> $book </td> <td>  $chapter </td> ";
+        
    
 
        
