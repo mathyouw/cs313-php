@@ -13,7 +13,7 @@ $db = get_db();
 </head>
 <body background="food_pics\wood_floor_wood_plank_1.jpg">
     <div align="center"; style="background-color:#0CAF9C; width: 500px;
-  margin: auto; border: double;">
+  margin: 0 auto; border: double;">
 <form method="post" action="displayFood.php">
         <table>
         <tr>
