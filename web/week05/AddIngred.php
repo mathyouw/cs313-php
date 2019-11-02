@@ -50,5 +50,6 @@ $db = get_db();
         exit();
       }
     }
+    ?>
 </body>
 </html>
