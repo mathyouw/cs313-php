@@ -11,8 +11,8 @@ $db = get_db();
     <title>Assignment05</title>
     <link rel="stylesheet" type="text/css" href="03stylesheet.css">
 </head>
-<body background="food_pics\texture_wood_grain_wood.jpg">
-    <div style = " "><br><br><br><H2>Allergy Manager</H2><br></div>
+<body background="food_pics\kelly-sikkema-VX0bsbyBxpM-unsplash.jpg">
+    <div class="a"><br><br><br><H2>Allergy Manager</H2><br></div>
     <div align="center"; style="background-color:#0CAF9C; width: 500px;
   margin: auto; border: double;">
 <form method="post" action="displayFood.php">
