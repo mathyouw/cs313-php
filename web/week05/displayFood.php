@@ -9,7 +9,8 @@
 </head>
 <body>
    <div class="a">
-   <h2>Food you can eat.</h2>
+   <h2>Foods you can't eat.</h2>
+   <h1>We're Sorry This portion is still in development.</h1>
 <?php
 session_start();
 ?>
