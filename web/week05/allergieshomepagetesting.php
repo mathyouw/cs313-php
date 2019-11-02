@@ -12,6 +12,8 @@ $db = get_db();
     <link rel="stylesheet" type="text/css" href="03stylesheet.css">
 </head>
 <body background="food_pics\wood_floor_wood_plank_1.jpg">
+    <div align="center"; style="background-color:#0CAF9C; width: 500px;
+  margin: auto; border: double;">
 <form method="post" action="displayFood.php">
         <table>
         <tr>
@@ -66,6 +68,10 @@ foreach ($rows as $ro) {
 ?>
     </tr>
     </table>
+</div>
+
+
+    
 <!-- 
     <button onclick="window.location.href = 'Checkout.php';">Click Here</button> -->
     <form method="post" action="displayFood.php">
