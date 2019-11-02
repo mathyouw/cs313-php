@@ -12,7 +12,8 @@ $db = get_db();
     <link rel="stylesheet" type="text/css" href="03stylesheet.css">
 </head>
 <body background="food_pics\wood_floor_wood_plank_1.jpg">
-    <div align="center"; style="background-color:#0CAF9C; width: 500px;
+    <div align="center"; style="  position: relative;
+  top: 50%; background-color:#0CAF9C; width: 500px;
   margin: 0 auto; border: double;">
 <form method="post" action="displayFood.php">
         <table>
