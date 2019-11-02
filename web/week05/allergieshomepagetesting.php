@@ -11,7 +11,7 @@ $db = get_db();
     <title>Assignment05</title>
     <link rel="stylesheet" type="text/css" href="03stylesheet.css">
 </head>
-<body>
+<body background="food_pics\wood_floor_wood_plank_1.jpg">
 <form method="post" action="displayFood.php">
         <table>
         <tr>
