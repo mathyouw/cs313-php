@@ -18,7 +18,7 @@ $db = get_db();
     <div align="center"; style="background-color: white; width: 600px;
   margin: auto; border: double;">
   <div class="a"><H1>Allergy Manager</H1>
-    <h2>Please select the food you are allergic to.</h2>
+    <h2>Please select the foods you are allergic to.</h2>
   </div>
 <form method="post" action="displayFood.php">
         <table>

@@ -16,32 +16,15 @@ session_start();
  <form method="post" action="Checkout.php">
    <?php
    $checkbox_id = $_POST['checkbox_id'];
-   $camaro = $_POST['camaro'];
-   $F150 = $_POST['F150'];
-   $Lesabre = $_POST['Lesabre'];
-   $RV = $_POST['RV'];
-   $Fusion = $_POST['Fusion'];
-   $Honda = $_POST['Honda'];
    foreach($_POST['checkbox_id'] as $check){
     echo "$check<br>";
    }
-   echo "$camaro<br>";
-   echo "$F150<br>";
-   echo "$Lesabre<br>";
-   echo "$RV<br>";
-   echo "$Fusion<br>";
-   echo "$Honda<br>";
-   $_SESSION['camaro'] = $camaro;
-   $_SESSION['F150'] = $F150;
-   $_SESSION['Lesabre'] = $Lesabre;
-   $_SESSION['RV'] = $RV;
-   $_SESSION['Fusion'] = $Fusion;
-   $_SESSION['Honda'] = $Honda;
+  
 ?>
  <input type="submit" value="Proceed to Checkout">
 </form>
 <form method="post" action="assignment03.php">
-<button onclick="goBack()">Return to Items List</button>
+<button onclick="goBack()">Return to Allergy List</button>
 </form>
 </div>
 </body>
