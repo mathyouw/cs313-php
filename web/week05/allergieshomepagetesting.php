@@ -69,13 +69,13 @@ foreach ($rows as $ro) {
     </tr>
     </table>
 
-
+<div>
 <input type="submit" value="Let us handle it!" >
 </form>
 
 <form action="AddIngred.php">
     <input type="submit" value="Managers Only" />
-</form>
+</form></div>
 
 </div>
 
