@@ -61,8 +61,8 @@ session_start();
    }
 
    if ($visiblepancake == false && $visiblelasagna == false && $visiblesoup == false){
-    echo '<h3>We''re Sorry!</h3>';
-    echo '<h2>We don''t have any food you can eat.</h2>';
+    echo "<h3>We''re Sorry!</h3>";
+    echo "<h2>We don''t have any food you can eat.</h2>";
    }
     
   
