@@ -55,13 +55,13 @@ session_start();
   
 
    if ($visiblepancake == true){
-    // echo '<div> Pancake </div>';
+     echo '<div> <h2>Fluffy Pancake</h2> </div>';
    }
    if ($visiblelasagna == true){
-     echo '<div> Lasagna </div>';
+     echo '<div> <h2> Lasagna</h2> </div>';
    }
    if ($visiblesoup == true){
-    // echo '<div> SOUP </div>';
+     echo '<div> SOUP </div>';
    }
     
   
