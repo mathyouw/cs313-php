@@ -28,7 +28,7 @@ div.a {
 div.b{
     align: center;
     text-align: center;
-    background-image: url("https://fast-garden-06413.herokuapp.com/imagesHosted/wildtextures-seamless-paper-texture.jpg");
+    background-image: url("https://fast-garden-06413.herokuapp.com/imagesHosted/white-linen-paper-texture.jpg");
      width: 800px;
      margin: auto;
 }
@@ -58,7 +58,7 @@ H2{
 
 .bg2 {
   /* The image used */
-  background-image: url("https://fast-garden-06413.herokuapp.com/imagesHosted/white-linen-paper-texture.jpg");
+  background-image: url("https://fast-garden-06413.herokuapp.com/imagesHosted/pistachio-1.jpg");
 
   /* Full height */
   height: 100%;
