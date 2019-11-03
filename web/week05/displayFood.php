@@ -24,7 +24,7 @@ $soup = array("Potatoes","celery","onion","Ham","white pepper","black pepper","b
 
    <div class="a">
     <h2>We a still a small company so we only offer 3 dishes.</h2>
-   <h2>Of those dishes you can eat.</h2>
+   <h2>These are the dishes you can eat.</h2>
 <?php
 session_start();
 ?>
@@ -36,17 +36,13 @@ session_start();
 
    $checkbox_id = $_POST['checkbox_id'];
    foreach($_POST['checkbox_id'] as $check){
-    echo "$check<br>";
     if (in_array($check, $pancake)) {
-    echo "Got No pancake";
     $visiblepancake = false;
     }
     if (in_array($check, $lasagna)) {
-    echo "Got No lasagna";
     $visiblelasagna = false;
     }
     if (in_array($check, $soup)) {
-    echo "Got No soup";
     $visiblesoup = false;
 
     }
