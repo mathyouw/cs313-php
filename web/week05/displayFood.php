@@ -7,7 +7,7 @@
     <script src="assign03javascript.js"></script>
       
 </head>
-<body background="food_pic\wood_floor_wood_plank_1.jpg">
+<body class = "bg2">
 <?php>
 $pancake = array("milk", "vinegar", "flour", "sugar", "baking powder", "baking soda", "salt", "egg", "butter");
 $lasagna = array("sausage", "ground beef", "onion","garlic","tomatoes
