@@ -71,6 +71,7 @@ session_start();
 <form method="post" action="allergieshomepagetesting.php">
 <button onclick="goBack()">Return to Allergy List</button>
 </form>
+<br>
 </div>
 </div>
 </body>
