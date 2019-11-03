@@ -23,7 +23,7 @@ $soup = array("Potatoes","celery","onion","Ham","white pepper","black pepper","b
 ?>
 <div >
    <div class="b">
-    <h2>We a still a small company so we only offer 3 dishes.</h2>
+    <h2>We are still a small company so we only offer 3 dishes.</h2>
    <h2>These are the dishes you can eat.</h2>
 <?php
 session_start();
