@@ -53,13 +53,13 @@ session_start();
 
    }
    if ($visiblepancake == true;){
-    echo '<div> Pancake </div>';
+    // echo '<div> Pancake </div>';
    }
    if ($visiblelasagna == true;){
-    echo '<div> Lasagna </div>';
+    // echo '<div> Lasagna </div>';
    }
    if ($visiblesoup == true;){
-    echo '<div> SOUP </div>';
+    // echo '<div> SOUP </div>';
    }
     
   
