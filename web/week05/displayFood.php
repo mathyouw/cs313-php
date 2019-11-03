@@ -30,21 +30,38 @@ session_start();
 ?>
  <form method="post" action="Checkout.php">
    <?php
+   $visiblepancake = true;
+   $visiblelasagna = true;
+   $visiblesoup = true;
+
    $checkbox_id = $_POST['checkbox_id'];
    foreach($_POST['checkbox_id'] as $check){
     echo "$check<br>";
     if (in_array($check, $pancake)) {
     echo "Got No pancake";
+    $visiblepancake = false;
     }
     if (in_array($check, $lasagna)) {
     echo "Got No lasagna";
+    $visiblelasagna = false;
     }
     if (in_array($check, $soup)) {
     echo "Got No soup";
-    
+    $visiblesoup = false;
+
     }
 
    }
+   if ($visiblepancake == true;){
+    echo '<div> Pancake </div>';
+   }
+   if ($visiblelasagna == true;){
+    echo '<div> Lasagna </div>';
+   }
+   if ($visiblesoup == true;){
+    echo '<div> SOUP </div>';
+   }
+    
   
 ?>
 </form>
