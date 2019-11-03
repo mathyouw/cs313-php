@@ -22,7 +22,7 @@ $soup = array("Potatoes","celery","onion","Ham","white pepper","black pepper","b
 
 ?>
 <div >
-   <div class="a">
+   <div class="b">
     <h2>We are still a small company so we only offer 3 dishes.</h2>
    <h2>These are the dishes you can eat.</h2>
 <?php
@@ -58,6 +58,11 @@ session_start();
    }
    if ($visiblesoup == true){
      echo '<div> <img src="https://fast-garden-06413.herokuapp.com/imagesHosted/ham-potato-soup.jpg" style ="border-style: outset;"> <h2>Ham and Potato Soup</h2> </div>';
+   }
+
+   if ($visiblepancake == false && $visiblelasagna == false && $visiblesoup == false){
+    echo '<h3>We''re Sorry!</h3>';
+    echo '<h2>We don''t have any food you can eat.</h2>';
    }
     
   
