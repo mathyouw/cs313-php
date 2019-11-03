@@ -51,7 +51,7 @@ session_start();
   
 
    if ($visiblepancake == true){
-     echo '<div style ="border-style: outset;"> <img src="https://fast-garden-06413.herokuapp.com/imagesHosted/fluffy-pancakes.png" alt="pancake"> <h2> Fluffy Pancakes</h2> </div>';
+     echo '<div > <img src="https://fast-garden-06413.herokuapp.com/imagesHosted/fluffy-pancakes.png" alt="pancake" style ="border-style: outset;"> <h2> Fluffy Pancakes</h2> </div>';
    }
    if ($visiblelasagna == true){
      echo '<div> <img src="https://fast-garden-06413.herokuapp.com/imagesHosted/best-lasagna.jpg" alt="lasagna"> <h2>Worlds Best Lasagna</h2> </div>';
