@@ -58,7 +58,7 @@ session_start();
     // echo '<div> Pancake </div>';
    }
    if ($visiblelasagna == true){
-    // echo '<div> Lasagna </div>';
+     echo '<div> Lasagna </div>';
    }
    if ($visiblesoup == true){
     // echo '<div> SOUP </div>';
