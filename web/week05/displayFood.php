@@ -54,10 +54,10 @@ session_start();
      echo '<div > <img src="https://fast-garden-06413.herokuapp.com/imagesHosted/fluffy-pancakes.png" alt="pancake" style ="border-style: outset;"> <h2> Fluffy Pancakes</h2> </div>';
    }
    if ($visiblelasagna == true){
-     echo '<div> <img src="https://fast-garden-06413.herokuapp.com/imagesHosted/best-lasagna.jpg" alt="lasagna"> <h2>Worlds Best Lasagna</h2> </div>';
+     echo '<div> <img src="https://fast-garden-06413.herokuapp.com/imagesHosted/best-lasagna.jpg" alt="lasagna" style ="border-style: outset;"> <h2>Worlds Best Lasagna</h2> </div>';
    }
    if ($visiblesoup == true){
-     echo '<div> <img src="https://fast-garden-06413.herokuapp.com/imagesHosted/ham-potato-soup.jpg"> <h2>Ham and Potato Soup</h2> </div>';
+     echo '<div> <img src="https://fast-garden-06413.herokuapp.com/imagesHosted/ham-potato-soup.jpg" style ="border-style: outset;"> <h2>Ham and Potato Soup</h2> </div>';
    }
     
   
