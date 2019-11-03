@@ -58,7 +58,7 @@ session_start();
      echo '<div> <h2>Fluffy Pancake</h2> </div>';
    }
    if ($visiblelasagna == true){
-     echo '<div> <h2> Lasagna</h2> </div>';
+     echo '<div> <img src="https://fast-garden-06413.herokuapp.com/imagesHosted/best-lasagna.jpg" alt="lasagna"> <h2> Lasagna</h2> </div>';
    }
    if ($visiblesoup == true){
      echo '<div> SOUP </div>';
