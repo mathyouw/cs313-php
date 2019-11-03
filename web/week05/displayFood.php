@@ -36,6 +36,14 @@ session_start();
     if (in_array($check, $pancake)) {
     echo "Got No pancake";
     }
+    if (in_array($check, $lasagna)) {
+    echo "Got No lasagna";
+    }
+    if (in_array($check, $soup)) {
+    echo "Got No soup";
+    
+    }
+
    }
   
 ?>
