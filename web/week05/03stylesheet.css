@@ -25,6 +25,11 @@ div.a {
     text-align: center;
 }
 
+div.b{
+    text-align: center;
+    background-image: url("https://fast-garden-06413.herokuapp.com/imagesHosted/wildtextures-seamless-paper-texture.jpg");
+}
+
 p {
     font-size: 150%;
 }

@@ -21,8 +21,8 @@ $soup = array("Potatoes","celery","onion","Ham","white pepper","black pepper","b
 
 
 ?>
-
-   <div class="a">
+<div >
+   <div class="b">
     <h2>We a still a small company so we only offer 3 dishes.</h2>
    <h2>These are the dishes you can eat.</h2>
 <?php
@@ -66,6 +66,7 @@ session_start();
 <form method="post" action="allergieshomepagetesting.php">
 <button onclick="goBack()">Return to Allergy List</button>
 </form>
+</div>
 </div>
 </body>
 </html>
